@@ -1,0 +1,773 @@
+@import "variables";
+
+html, body {
+    height: 100%;
+}
+
+.shadow(@d) {
+    box-shadow: 0 (2px * @d) 10px rgba(0, 0, 0, 0.5);
+}
+.colapse_btn {
+    cursor: pointer;
+}
+.colapse {
+    display: none;
+}
+.small {
+    font-size: 12px;
+}
+
+.boton(@tam) {
+    width: @tam;
+    height: @tam;
+    line-height: @tam;
+    text-align: center;
+    font-size: @tam / 2;
+    font-family: "helvetica", sans-serif;
+    border-radius: @tam / 2;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1000;
+}
+
+.gridL(@i; @j) {
+    @media screen and (min-width: @mediaTablet) {
+        left: 16.5% * @i;
+        top: ~"calc(" @j ~"* (100% - 100px) / 3 + 100px)";
+    }
+}
+.gridS(@i; @j) {
+    @media screen and (max-width: (@mediaTablet - 1)) {
+        left: @i * 50%;
+        top: 100px + (@j * @altoCaja);
+    }
+}
+.color(@back, @opacity) {
+    background-color: @back;
+    .wicon > .telon {
+        background-color: fade(white, @opacity);
+    }
+    .wicon > footer {
+        background-color: @back;
+    }
+    .window {
+        background-color: fade(white, @opacity);
+        header{
+            background-color: @back;
+            .botonHome {
+                background-color: darken(@back, 10%);
+            }
+        }
+        footer{
+            background-color: #e5e5e5;
+            a:link, a:visited {
+                color: black;
+                text-decoration: underline;
+            }
+            .socialMedia {
+                a:link, a:visited {
+                    text-decoration: none;
+                }
+            }
+            a:hover {
+                color: #777;
+            }
+        }
+
+        a:link, a:visited {
+            color: white;
+            text-decoration: underline;
+        }
+        .intro {
+            //background-color: fade(@back, @opacity);
+            > div > div{
+                background-color: fade(darken(@back, 10%), 90%);
+            }
+        }
+        .horario {
+            border-radius: 10px 10px 0 0;
+        }
+        .horario, .info {
+            background-color: white;
+        }
+        .inversion, .certificado {
+            background-color: fade(darken(@back, 10%), 60%);
+            color: white;
+            .panel.sombra {
+                background-color: darken(@back, 10%);
+                h3 {
+                    color: white;
+                }
+            }
+            .panel h3 {
+                color: darken(@back, 10%);
+            }
+        }
+        .pago {
+            .botonBack {
+                background-color: darken(@back, 10%);
+            }
+        }
+
+        .btn.btn-primary{
+            background-color: fade(@back, 90%);
+            border: 1px solid darken(@back, 10%);
+        }
+
+        // Barra de botones lateral
+        .btn-group-vertical {
+            .btn {
+                margin: 0;
+                background-color: fade(@back, 90%);
+            }
+            .btn:hover {
+                color: white
+            }
+            .btn+.btn {
+                margin-top: 0px;
+            }
+            .btn.active {
+                background-color: fade(darken(@back, 10%), 90%);
+            }
+        }
+    }
+}
+
+.caja {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 5px @backColor solid;
+    box-sizing: border-box;
+    transition: all @transitionTime;
+    position: absolute;
+    //cursor: pointer;
+    @media screen and (max-width: (@mediaTablet - 1)) {
+        width: 50%;
+        height: @altoCaja;
+        .btn-toolbar {
+            display: none;
+        }
+    }
+    &.active {
+        cursor: auto;
+        border-radius: 0;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+}
+.grande {
+    .caja;
+    @media screen and (min-width: @mediaTablet) {
+        width: 33%;
+        height: calc(~"2 * (100% - 100px) / 3");
+    }
+}
+.mediano {
+    .caja;
+    @media screen and (min-width: @mediaTablet) {
+        width: 33%;
+        height: calc(~"(100% - 100px) / 3");
+    }
+}
+.chico {
+    .caja;
+    @media screen and (min-width: @mediaTablet) {
+        width: 16.5%;
+        height: calc(~"(100% - 100px) / 3");
+    }
+}
+
+.wiconContainer {
+    background-color: @backColor;
+    width: 100%;
+    @media screen and (min-width: @mediaTablet) {
+        position: fixed;
+        height: 100%;
+        top: 0;
+    }
+    @media screen and (max-width: (@mediaTablet - 1)) {
+        position: relative;
+        height: @altoCaja * 5 + 300px;
+    }
+
+    >header {
+        height: 100px;
+        background-color: @backColor;
+        background-image: url(../img/chromas_logo_713x184.png);
+        background-repeat: no-repeat;
+        background-size: auto 90%;
+        background-position: 5%;
+        @media screen and (max-width: (600px)){
+            background-image: url(../img/chromas3.png);
+        }
+        nav {
+            position: absolute;
+            font-size: 18px;
+            //background-color: @paleta5;
+            border-radius: 5px;
+            top: 35px;
+
+            &:nth-child(1){
+                right: 25px;
+                @media screen and (max-width: (@mediaTablet - 1)) {
+                    display: none;
+                }
+                //border: 1px @paleta5 solid;
+            }
+            &:nth-child(2){
+                left: 435px;
+                @media screen and (max-width: 1200px) {
+                    top: 17px;
+                    width: 350px;
+                }
+                @media screen and (max-width: (@mediaTablet - 1)) {
+                    left: auto;
+                    right: 10px;
+                }
+            }
+            @media screen and (max-width: (@mediaTablet - 1)) {
+                width: 150px;
+                margin-top: 10px;
+                text-align: right;
+                font-size: 16px;
+            }
+            a {
+                display: inline-block;
+                padding: 5px 15px;
+                @media screen and (max-width: (@mediaTablet - 1)) {
+                    padding: 5px;
+                }
+                &:link, &:visited {
+                    text-decoration: none;
+                    color: black;
+                    &.login {
+                        color: #333;
+                    }
+                }
+                &:hover {
+                    background-color: @paleta5;
+                    color: white !important;
+                    //background-color: cornflowerblue;
+                }
+            }
+        }
+    }
+    
+    #diplomados{
+        display: none;
+    }
+
+    #D1 {
+        .grande;
+        .gridL(0,0);
+        .gridS(0,0);
+        .color(@paleta1, 50%);
+
+        .windowContent > .intro {
+            background-image: url(../img/DWeb-header2.png);
+        }
+    }
+    #D2 {
+        .grande;
+        .gridL(2,1);
+        .gridS(1,0);
+        .color(@paleta4, 50%);
+    }
+    #D3 {
+        .grande;
+        .gridL(4,0);
+        .gridS(1,0);
+        .color(@paleta2, 50%);
+    }
+        
+    #D4 {
+        .mediano;
+        .gridL(0,2);
+        .gridS(0,1);
+        .color(@paleta3, 50%);
+        
+        .windowContent > .intro {
+            background-image: url(../img/UX-header.png);
+        }
+    }
+    #D5 {
+        .mediano;
+        .gridL(2,0);
+        .gridS(1,3);
+        .color(@paleta2, 50%);
+        
+        .windowContent > .intro {
+            background-image: url(../img/AdProyectos-header.png);
+        }
+    }
+    #D6 {
+        .mediano;
+        .gridL(4,2);
+        .gridS(1,1);
+        .color(@paleta6, 50%);
+        
+        .windowContent > .intro {
+            background-image: url(../img/ArtGeneratico-header.png);
+        }
+    }
+    #C1 {
+        .chico;
+        .gridL(0,0);
+        .gridS(0,4);
+        .color(@paleta5, 50%);
+    }
+    #C2 {
+        .chico;
+        .gridL(1,0);
+        .gridS(0,3);
+        .color(#888, 50%);
+    }
+    #C3 {
+        .chico;
+        .gridL(2,0);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C4 {
+        .chico;
+        .gridL(3,0);
+        .gridS(0,2);
+        .color(#403d3d, 50%);
+        
+        .windowContent > .intro {
+            background-image: url(../img/Unity-header.png);
+        }
+    }
+    #C5 {
+        .chico;
+        .gridL(4,0);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C6 {
+        .chico;
+        .gridL(5,0);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C7 {
+        .chico;
+        .gridL(0,1);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C8 {
+        .chico;
+        .gridL(1,1);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C9 {
+        .chico;
+        .gridL(2,1);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C10 {
+        .chico;
+        .gridL(3,1);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    
+    #C11 {
+        .chico;
+        .gridL(4,1);
+        .gridS(0,4);
+        .color(@paleta5, 50%);
+    }
+    #C12 {
+        .chico;
+        .gridL(5,1);
+        .gridS(0,3);
+        .color(#888, 50%);
+    }
+    #C13 {
+        .chico;
+        .gridL(0,2);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C14 {
+        .chico;
+        .gridL(1,2);
+        .gridS(0,2);
+        .color(#403d3d, 50%);
+        
+        .windowContent > .intro {
+            background-image: url(../img/Unity-header.png);
+        }
+    }
+    #C15 {
+        .chico;
+        .gridL(2,2);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C16 {
+        .chico;
+        .gridL(3,2);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+    #C17 {
+        .mediano;
+        .gridL(4,2);
+        .gridS(1,2);
+        .color(#34a859, 50%);
+    }
+}
+
+.window {
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    onter verflow-y: auto;
+    overflow-x: hidden;
+
+    .windowContent {
+        position: relative;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 900px;
+        position: relative;
+
+        @headerHeight: 90px;
+        @headerFontSize: 40px;
+        header {
+            .shadow(1);
+            border-radius: 0 0 10px 10px;
+            color: white;
+            position: fixed;
+            top: 0;
+            height: @headerHeight;
+            padding: (@headerHeight - @headerFontSize) / 2.5;
+            max-width: 900px;
+            width: 100%;
+            z-index: 1000;
+
+            h2 {
+                margin: 0;
+                font-weight: bold;
+                font-size: @headerFontSize;
+                img {
+                    vertical-align: text-bottom;
+                    height: 50px;
+                }
+                .categoria {
+                    font-weight: lighter;
+                    font-size: @headerFontSize * 0.6;
+                }
+            }
+
+            .botonHome {
+                @botonSize: 60px;
+                .shadow(1);
+                .boton(@botonSize);
+                color: white;
+                top: @headerHeight - (@botonSize / 2);
+                right: @botonSize / 2;
+            }
+
+            .btn-toolbar {
+                border-radius: 0 5px 5px 0;
+                padding: 0;
+                position: fixed;
+                top: ~"calc(50% - 135px)";
+                left: 0;
+                .btn {
+                    .shadow(0);
+                }
+            }
+        }
+        footer {
+            //.shadow(0);
+            z-index: 1;
+            padding: 40px 50px 20px;
+            color: black;
+            a:link, a:visited {
+                color: black;
+            }
+            .socialMedia {
+                a:link, a:visited {
+                    font-size: 26px;
+                    color: blue;
+                    line-height: 100%;
+                    display: inline-block;
+                    margin-top: 48px;
+                    margin-left: 10px;
+                }
+                a:hover {
+                    color: grey;
+                }
+            }
+        }
+        >div {
+            padding: 3% 5%;
+            background-size: cover;
+            h2 {
+                font-size: 35px;
+            }
+        }
+        .intro {
+            margin-top: @headerHeight;
+            color: white;
+            padding: 5% 6% 5%;
+            >div > div {
+                .shadow(1);
+                padding: 30px;
+                border-radius: 5px;
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: bold;
+                margin: 10px -3%;
+            }
+            cite {
+                font-size: 12px;
+                display: block;
+                margin: 10px -3%;
+            }
+        }
+        .horario {
+            //.shadow(0);
+            z-index: 10;
+        }
+        .inversion {
+            text-align: center;
+            .title {
+                text-align: left;
+            }
+            .hLine {
+                background-color: white;
+                border-radius: 5px;
+                height: 5px;
+                margin: 0 0 8px;
+            }
+            .panel {
+                margin-bottom: 0;
+                text-align: left;
+                color: black;
+                width: 30%;
+                display: inline-block;
+                border-radius: 10px 10px 0 0;
+                &.sombra {
+                    h3 {
+                        color: white;
+                    }
+                    color: white;
+                }
+                h3 {
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                button {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .info {
+            //.shadow(0);
+            z-index: 10;
+            padding-bottom: 5%;
+        }
+        .certificado {
+            img {
+                width: 100%;
+            }
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.wicon {
+    @wiconBarHeight: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .telon {
+        display: table-cell;
+        vertical-align: middle;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(~"100%" - @wiconBarHeight);
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+            width: 1px;
+        }
+        img {
+            display: inline-block;
+            max-width: 90%;
+            max-height: 70%;
+            vertical-align: middle;
+            /*-webkit-filter: drop-shadow(6px 6px 5px rgba(0,0,0,0.5));*/
+        }
+    }
+    footer {
+        font-size: @wiconBarHeight / 2.5;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: @wiconBarHeight;
+        line-height: @wiconBarHeight;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+        font-weight: bold;
+    }
+}
+
+/* Calendar */
+.calendar {
+    border-radius: 5px;
+    text-align: center;
+    .calendarHeader {
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+        background-color: gray;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+    }
+    .diaS {
+        float: left;
+        box-sizing: border-box;
+        width: 100% / 7;
+        min-height: 10px;
+        margin: 0;
+        font-weight: bold;
+    }
+    .celda {
+        float: left;
+        box-sizing: border-box;
+        width: 100% / 7;
+        //height: 35px;
+        //line-height: 35px;
+        min-height: 25px;
+        overflow: hidden;
+        margin: 0;
+        padding: 1px;
+        background-color: #eeeeff;
+
+        text-align: center;
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        &.dia {
+            :hover {
+                font-weight: bold;
+            }
+        }
+        &.inicio {
+            background-color: #333;
+            color: white;
+        }
+        &.fin {
+            background-color: #333;
+            color: white;
+        }
+        &.clases2 {
+            background-color: rgba(100, 149, 237, 0.75);
+        }
+        &.clases1 {
+            background-color: rgba(100, 149, 237, 0.5);
+        }
+        &.domingo {
+            background-color: rgba(154, 205, 50, 0.5);
+        }
+        &.feriado {
+            background-color: rgba(173, 255, 47, 1) !important;
+        }
+    }
+}
+
+.pago {
+    position: relative;
+    display: none;
+    z-index: 10000000;
+}
+
+.telonFull {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(136, 136, 136, 0.4);
+}
+
+.pagos {
+    .shadow(0);
+    max-height: 650px;
+    width: 640px;
+    position: fixed;
+    top: 10px;
+    left: ~"calc(50% - 300px)";
+    background-color: orange;
+    border-radius: 10px;
+    >div:nth-child(1) {
+        background-image: url(../img/inversion.png);
+        background-color: orange;
+        background-repeat: no-repeat;
+        min-height: 400px;
+    }
+    >div:nth-child(2) {
+        background-color: white;
+        padding: 20px 30px 20px 30px;
+        a:link, a:visited {
+            color: blue !important;
+        }
+    }
+    input[type="image"] {
+        margin-top: 10px;
+    }
+    .contenido {
+        max-height: 500px;
+        overflow: auto;
+    }
+    .colapse {
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 5px 0;
+        padding: 0 20px;
+    }
+    .btn {
+        margin: 5px;
+    }
+    .botonBack {
+        @botonSize: 60px;
+        .shadow(1);
+        .boton(@botonSize);
+        color: white;
+        top: 20px;
+        right: @botonSize / 2;
+    }
+}

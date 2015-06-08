@@ -1,0 +1,388 @@
+<div class="windowContent container-fluid">
+    
+    <header class="header">
+        <div class="botonHome"><i class="fa fa-times"></i></div>
+        <h2><img src="iconografia/arte-generativo.png" alt="Curso - Draw with Code">Draw with Code<span class="categoria"> {CURSO}</span></h2>
+        <div class="btn-toolbar">
+            <!--div class="btn-group-vertical" role="group">
+                <button type="button" class="btn btn-lg active" data-toggle="tooltip" data-placement="right" title="Home">
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="¿Es para mi?">
+                    <span class="fa fa-info"></span>
+                </button>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Inicios y horarios">
+                    <span class="glyphicon glyphicon-time"></span>
+                </button>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Planes y paquetes">
+                    <span class="glyphicon glyphicon-usd"></span>
+                </button>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Informes">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                </button>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Certificación">
+                    <span class="fa fa-line-chart"></span>
+                </button>
+            </div-->
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-4">
+                <div class="col-md-12">
+                    <h3>Relacionate con el espacio, las formas y el<br>movimiento a travéz de la programación</h3>
+                </div>
+
+                <button class="btn btn-md btn-primary colapse_btn" onclick="colapse(event)"><i class="fa fa-graduation-cap"></i> ¿Qué podré hacer?</button>
+                <div class="small collapse">
+                    <div class="col-md-6">
+                        <ul>
+                            <li> Creación de geometrías generativas</li>
+                            <li>Pasar ideas gráficas a algoritmos</li>
+                            <li>Manipulación del espacio 2D y 3D</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                           
+                            <li>Comprensión de la mecánica del espacio</li>
+                            <li>Diseño de algoritmos geométricos</li>
+                            <li>Diseño de flujos de información y datos</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <button class=" center-block btn btn-lg btn-warning" onclick="pagar()"><strong>¡Inscríbeme!</strong></button>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <cite>#NetArt, #LOGO, #Processing, #BrownianMotion, #MicroWorlds, #Dynamics, #Geometry, #Transmedia, #WorldModelation...</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="horario">
+        <div class="row">
+            <div class="col-md-12">
+                <h2><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Horario</h2>
+                <hr>
+            </div>
+            <div class="col-md-5">
+                <h4>Entre semana<p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Iniciamos el <strong>00 de mes</strong></p></h4>
+                <p>
+                    <button type="button" class="btn btn-md btn-primary" onclick="cupo('LM8am')">00am - 00am</button>
+                    <button type="button" class="btn btn-md btn-primary" onclick="cupo('LM6pm')">00pm - 00pm</button>
+                </p>
+                <h4>Sabatino<p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Iniciamos el <strong>00 de mes</strong></p></h4>
+                <p>
+                    <button type="button" class="btn btn-md btn-primary" onclick="cupo('S11am')">00am - 00pm</button>
+                    <button type="button" class="btn btn-md btn-primary" onclick="cupo('S4pm')">00pm - 00pm</button>
+                </p>
+            </div>
+            <div class="col-md-3 col-md-offset-0">
+                <div class="calendar" titulo="Abril"
+                     mes="ABRIL" iniciomes="MIERCOLES"
+                     inicios="" clases1="" clases2="" feriados="30">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="calendar" titulo="Clases de Mayo"
+                     mes="MAYO" iniciomes="VIERNES"
+                     inicios="4 9" clases1="6 11 13 18 20 25 27" clases2="9 16 23 30" feriados="1 10 15">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inversion">
+        <div class="row title">
+            <div class="col-md-12">
+                <h2><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Inversion</h2>
+                <hr>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row paneles">
+            <div class="panel">
+                <div class="panel-body">
+                    <h3>Estudiantes</h3>
+                    <strong>Inscripción:</strong> $500.00
+                    <br>
+                    <strong>Mensualidad:</strong> $1,300.00
+                    <br> Incluye un examen de certificación.
+                    <br>
+                    <br>
+
+                    <button class="btn btn-lg btn-primary" onclick="pagar()">¡Inscribeme!</button>
+                </div>
+            </div>
+            <div class="panel sombra">
+                <div class="panel-body">
+                    <h3>Individual</h3>
+                    <strong>Inscripción:</strong> $650.00
+                    <br>
+                    <strong>Mensualidad:</strong> $1,600.00
+                    <br> Incluye:
+                    <br> - Acesorías post curso
+                    <br> - Garantía de certificación
+                    <br> - Acceso a recursos en linea
+                    <br>
+                    <br>
+                    <button class="btn btn-lg btn-default" onclick="pagar()">¡Inscribeme!</button>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-body">
+                    <h3>Grupos</h3>
+                    <strong>Inscripción:</strong> $500.00 c/u
+                    <br>
+                    <strong>Mensualidad:</strong> $1,300.00 c/u
+                    <br> Pregunta por nuestros paquetes.
+                    <br>
+                    <br>
+                    <button class="btn btn-lg btn-primary" onclick="pagar()">¡Inscribeme!</button>
+                </div>
+            </div>
+            <div class="hLine"></div>
+
+            <div class="col-md-12">
+                <p>*Precio de estudiante aplicable únicamente mostrando la tira de materias y una credencial vigente.
+                    <br> **Precio de grupo aplicable a partir de tres alumnos inscritos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="row title">
+            <div class="col-md-12">
+                <h2><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Informes</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3><i class="fa fa-list-ul fa-lg"></i> Temario</h3>
+                <p>Compara nuestros temarios con los de otras escuelas e instituciones. Si encuentras un tema que deberíamos tener avísanos <a href="contacto.html">aquí</a>. Tu opinión es muy importante para nosotros.</p>
+                <button class="btn btn-md btn-primary center-block"><i class="fa fa-download"></i> Descargar</button>
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-file-text-o fa-lg"></i> Invitación</h3>
+                <p>Hemos diseñado esta carta para promover que tu empresa te inscriba en este curso. A ti te combiene poder hacer más cosas y a tu empresa también.</p>
+                <button class="btn btn-md btn-primary center-block"><i class="fa fa-download"></i> Descargar</button>
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-check-square-o fa-lg"></i> Plan de estudios</h3>
+                <p>Nuestros planes de estudio son nuestro orgullo. Con ellos garantizamos que tu aprendizaje tiene bases sólidas, y que tus conocimientos son comprobables. </p>
+                <button class="btn btn-md btn-primary center-block"><i class="fa fa-download"></i> Descargar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="certificado">
+        <div class="row title">
+            <div class="col-md-12">
+                <h2><span class="fa fa-line-chart fa-lg" aria-hidden="true"></span> Certificados y bolsa de trabajo</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1">
+                <img src="img/certificado.png" style="margin-top: 30px;">
+            </div>
+            <div class="col-md-6">
+                <h3>No enseñamos por enseñar...</h3>
+                <p>Por esto, y porque nos preocupa que todos nuestros alumnos sean expertos en la los temas que estudian con nosotros, creamos un conjunto de certificaciones con las que podrás mejorar tus oportunidades laborales.</p>
+                <p>Nuestros programas de certificación, orientados por competencias laborales, ponen a prueba tus conocimientos con la finalidad de ayudarte a detectar cuales son tus áreas fuertes y cuales tus áreas a reforzar.</p>
+                <p>Así mismo contamos con bolsa de trabajo de empresas que buscan perfiles profesionales con conocimientos de actualidad y vanguardia.</p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="certificaciones.html"><button class="btn btn-lg btn-default center-block" style="margin-top: 20px;">¡Quiero saber más!</button></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/TD2015-LOGO.svg" width="110" alt="">
+                </div>
+                <div class="col-md-4">
+                    <p>&copy; Thinking Dojo 2015</p>
+                    <p><a href="tel: +525544443075">Tel: +52(55) 4444 - 3075</a>
+                        <br>
+                        <a href="mail-to: contacto@thinkingdojo.com">eMail: contacto@thinkingdojo.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>General Anaya 127 - 1
+                        <br>Col. San Diego Churubusco
+                        <br>CP 04120, Del. Coyoacán
+                        <br>México D.F.</p>
+                </div>
+                <div class="col-md-3 socialMedia">
+                    <a href="https://twitter.com/playmusicschool" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a href="https://www.facebook.com/PlayMusicSchool" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="https://plus.google.com/113926227051703345845" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
+                    <a href="https://www.youtube.com/user/playmusicschool/videos" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="pago">
+        <div class="telonFull"></div>
+        <div class="row pagos">
+            <div class="col-md-3"></div>
+            <div class="col-md-9 ">
+                <div class="col-md-12">
+                    <h3><i class="fa fa-dollar"></i> Formas de pago</h3>
+                    <hr>
+                </div>
+                <div class="contenido col-md-12">
+                    <div>
+                        <h4>1. ¡Inscríbete! (Solo alumnos nuevos)</h4>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">Pago en linea</button>
+                        <div class="colapse">
+                            <p><strong><em>-PayPal-</em></strong></p>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="YK3YA5UPM86V8">
+                                <table>
+                                <tr><td><input type="hidden" name="on0" value="Inscripción"> Inscripción:</td></tr><tr><td><select name="os0">
+                                    <option value="Estudiante">Estudiante $500.00 MXN</option>
+                                    <option value="Individual">Individual $650.00 MXN</option>
+                                    <option value="Grupo 3 personas">Grupo 3 personas $1,500.00 MXN</option>
+                                    <option value="Grupo 4 personas">Grupo 4 personas $2,000.00 MXN</option>
+                                    <option value="Grupo 5 personas">Grupo 5 personas $2,500.00 MXN</option>
+                                </select> </td></tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="MXN">
+                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">Banamex &amp; OXXO</button>
+                        <div class="colapse">
+                            <p><strong><em>-BANAMEX &amp; OXXO-</em></strong></p>
+                            <p>Puedes depositar en la cuenta Banamex:</p>
+                            <p class="small col-md-offset-1"><em>
+                                + No: 3213245, sucursal: 9012 <br>
+                                + A nombre de: Claudio Francisco Nebbia Rubio<br>
+                                + Referencia: &lt;Tu nombre y apellido&gt;<br>
+                                + CLABE: 002180901232132459
+                            </em>
+                            </p>
+                        </div>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">En las instalaciones</button>
+                        <div class="colapse">
+                            <p><strong><em>-En las instalaciones-</em></strong></p>
+                            <p>Puedes realizar tu pago con una semana de anticipación directo en nuestras instalaciones hubicadas en:</p>
+                            <p class="small col-md-offset-1">
+                                Calle General Anaya 127-1,<br>
+                                entre Holanda y Xicotencatl,<br>
+                                Col. San Diego Churubusco,<br>
+                                Del. Coyoacán,<br>
+                                C.P. 04120, México D.F.<br>
+                            </p>
+                            <a href="contacto.html">Ver mapa...</a>
+                        </div>
+                        <p>* Para grupos de más de 5 personas, grupos foraneos o para dar clases en tus instalaciones <a href="contacto.html">¡contactarnos!</a>, armamos paquetes a la medida.</p>
+                    </div>
+                    <div>
+                        <h4>2. Paga tu primera mensualidad o <br>¡programa tus pagos mediante suscripción!</h4>
+                        <h5>Pagar una mensualidad:</h5>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">Pago en linea</button>
+                        <div class="colapse">
+                            <p><strong><em>-PayPal-</em></strong></p>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="JTUDRZDG2HY82">
+                                <table>
+                                <tr><td><input type="hidden" name="on0" value="Mensualidad">Pagar una mensualidad</td></tr><tr><td><select name="os0">
+                                    <option value="Estudiante">Estudiante $1,300.00 MXN</option>
+                                    <option value="Individual">Individual $1,600.00 MXN</option>
+                                    <option value="Grupo 3 personas">Grupo 3 personas $3,900.00 MXN</option>
+                                    <option value="Grupo 4 personas">Grupo 4 personas $5,200.00 MXN</option>
+                                    <option value="Grupo 5 personas">Grupo 5 personas $6,500.00 MXN</option>
+                                </select> </td></tr>
+                                <tr><td><input type="hidden" name="on1" value="Horario">Horario</td></tr><tr><td><select name="os1">
+                                    <option value="Martes y Jueves, 8am - 10am">Martes y Jueves, 8am - 10am </option>
+                                    <option value="Martes y Jueves, 10am - 12pm">Martes y Jueves, 10am - 12pm </option>
+                                    <option value="Martes y Jueves, 6pm - 8pm">Martes y Jueves, 6pm - 8pm </option>
+                                    <option value="Sábados, 8am - 11am">Sábados, 8am - 11am </option>
+                                    <option value="Sábados, 11am - 2pm">Sábados, 11am - 2pm </option>
+                                    <option value="Sábados, 4pm - 7pm">Sábados, 4pm - 7pm </option>
+                                </select> </td></tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="MXN">
+                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">Banamex &amp; OXXO</button>
+                        <div class="colapse">
+                            <p><strong><em>-BANAMEX &amp; OXXO-</em></strong></p>
+                            <p>Puedes depositar en la cuenta Banamex:</p>
+                            <p class="small col-md-offset-1"><em>
+                                + No: 3213245, sucursal: 9012 <br>
+                                + A nombre de: Claudio Francisco Nebbia Rubio<br>
+                                + Referencia: &lt;Tu nombre y apellido&gt;<br>
+                                + CLABE: 002180901232132459
+                            </em>
+                            </p>
+                        </div>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">En las instalaciones</button>
+                        <div class="colapse">
+                            <p><strong><em>-En las instalaciones-</em></strong></p>
+                            <p>Puedes realizar tu pago con una semana de anticipación directo en nuestras instalaciones hubicadas en:</p>
+                            <p class="small col-md-offset-1">
+                                Calle General Anaya 127-1,<br>
+                                entre Holanda y Xicotencatl,<br>
+                                Col. San Diego Churubusco,<br>
+                                Del. Coyoacán,<br>
+                                C.P. 04120, México D.F.<br>
+                            </p>
+                            <a href="contacto.html">Ver mapa...</a>
+                        </div>
+
+                        <h5>Suscripcion:</h5>
+                        <button class="colapse_btn btn btn-sm btn-primary" onclick="colapse(event)">Pago en linea</button>
+                        <div class="colapse">
+                            <p><strong><em>-PayPal-</em></strong></p>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="BTATD8P68R5XS">
+                                <table>
+                                <tr><td><input type="hidden" name="on0" value="Mensualidad">Pago recurrente</td></tr><tr><td><select name="os0">
+                                    <option value="Estudiante">Estudiante : $1,300.00 MXN - mensual</option>
+                                    <option value="Individual">Individual : $1,600.00 MXN - mensual</option>
+                                    <option value="Grupo 3 personas">Grupo 3 personas : $3,900.00 MXN - mensual</option>
+                                    <option value="Grupo 4 personas">Grupo 4 personas : $5,200.00 MXN - mensual</option>
+                                    <option value="Grupo 5 personas">Grupo 5 personas : $6,500.00 MXN - mensual</option>
+                                </select> </td></tr>
+                                <tr><td><input type="hidden" name="on1" value="Horario">Horario</td></tr><tr><td><select name="os1">
+                                    <option value="Martes y Jueves, 8am - 10am">Martes y Jueves, 8am - 10am </option>
+                                    <option value="Martes y Jueves, 10am - 12pm">Martes y Jueves, 10am - 12pm </option>
+                                    <option value="Martes y Jueves, 6pm - 8pm">Martes y Jueves, 6pm - 8pm </option>
+                                    <option value="Sábados, 8am - 11am">Sábados, 8am - 11am </option>
+                                    <option value="Sábados, 11am - 2pm">Sábados, 11am - 2pm </option>
+                                    <option value="Sábados, 4pm - 7pm">Sábados, 4pm - 7pm </option>
+                                </select> </td></tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="MXN">
+                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <p class="small">*Puedes cancelar tu suscripción cuando gustes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="botonBack"><i class="fa fa-times"></i></div>
+        </div>
+    </div>
+    
+</div>
