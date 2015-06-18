@@ -1,8 +1,48 @@
-/*global $, document, Firebase, console*/
+/*global $, document, Firebase, console, alert*/
 /*jslint plusplus:true, browser: true*/
 
 var selectedWicon = "D1";
 //var myDataRef = new Firebase('https://gbar6zs00xr.firebaseio-demo.com/');
+
+function cursos() {
+    "use strict";
+    $(".wiconContainer > #diplomados > #D1").css("transition-delay", "0.0s");
+    $(".wiconContainer > #diplomados > #D2").css("transition-delay", ".2s");
+    $(".wiconContainer > #diplomados > #D3").css("transition-delay", ".4s");
+    $(".wiconContainer > #diplomados > #D4").css("transition-delay", ".6s");
+    $(".wiconContainer > #diplomados > #D5").css("transition-delay", ".8s");
+    $(".wiconContainer > #diplomados > #D6").css("transition-delay", "1.0s");
+    $(".wiconContainer > #diplomados > #D1").css("-webkit-transition-delay", "0.0s");
+    $(".wiconContainer > #diplomados > #D2").css("-webkit-transition-delay", ".2s");
+    $(".wiconContainer > #diplomados > #D3").css("-webkit-transition-delay", ".4s");
+    $(".wiconContainer > #diplomados > #D4").css("-webkit-transition-delay", ".6s");
+    $(".wiconContainer > #diplomados > #D5").css("-webkit-transition-delay", ".8s");
+    $(".wiconContainer > #diplomados > #D6").css("-webkit-transition-delay", "1.0s");
+    $(".wiconContainer > #diplomados > div").css("transform", "rotateX(180deg)").css("opacity", "0");
+    setTimeout(function () {
+        $("#diplomados").hide();
+        $("#cursos").fadeIn(700);
+        $(".wiconContainer > #cursos > div").css("transform", "rotateX(0deg)").css("opacity", "1");
+    }, 1500);
+}
+
+function diplomados() {
+    "use strict";
+    var i;
+
+    for (i = 1; i < 17; i++) {
+        $(".wiconContainer > #cursos > #C" + i).css("transition-delay", (i % 4 * 0.2) + "s");
+        $(".wiconContainer > #cursos > #C" + i).css("-webkit-transition-delay", (i % 4 * 0.2) + "s");
+    }
+    $(".wiconContainer > #cursos > div").css("transform", "rotateX(180deg)").css("opacity", "0");
+
+    setTimeout(function () {
+        $("#cursos").hide();
+        $("#diplomados").fadeIn(700);
+        //$("#diplomados").show();
+        $(".wiconContainer > #diplomados > div").css("transform", "rotateX(0deg)").css("opacity", "1");
+    }, 1500);
+}
 
 
 function cargarCalendario(selector) {
@@ -88,24 +128,25 @@ $(document).ready(function () {
     //$('#DWeb .calendar').html(calendario(3, "Abril 2015", "abril2015_DWeb"));
 
     $(".wicon").click(function () {
-        var selectedCourse;
+        var selectedCourse, $wicon;
+
         selectedWicon = $(this).parent().get()[0].getAttribute("id");
         
-        if(selectedWicon === "D6") {
+        if (selectedWicon === "D6") {
             cursos();
             return;
-        } else if(selectedWicon === "C17") {
+        } else if (selectedWicon === "C17") {
             diplomados();
             return;
         }
         
 
-        if($("#" + selectedWicon + ">.window").html().indexOf("<") === -1) {
+        if ($("#" + selectedWicon + ">.window").html().indexOf("<") === -1) {
             $("#" + selectedWicon + ">.window").load("cursos/" + selectedWicon + ".html", function (response, status, xhr) {
-                if ( status == "error" ) {
+                if (status === "error") {
                     alert("Esta sección todavía no está disponible.\n\nLanzamiento oficial de la página:\n 11° de Mayo 2015\n ¡Está pendiente de las actualizaciones!");
                 } else {
-                    cargarCalendario("#D1 .calendar");
+                    cargarCalendario("#" + selectedWicon + " .calendar");
                     var $wicon = $("#" + selectedWicon);
                     $wicon.addClass("active");
                     $wicon.children(".window").fadeOut(0);
@@ -124,15 +165,14 @@ $(document).ready(function () {
                     $("#" + selectedWicon + " .wicon").fadeIn(1000);
                     $("#" + selectedWicon + " .window").fadeOut(400);
                 });
-                $("#" + selectedWicon + " .botonBack").click(function(){
-                    $("#" + selectedWicon + " .pago").fadeOut(1000, function() {
+                $("#" + selectedWicon + " .botonBack").click(function () {
+                    $("#" + selectedWicon + " .pago").fadeOut(1000, function () {
                         $("#" + selectedWicon + " .pago").hide();
                     });
                 });
             });
-        } 
-        else {
-            var $wicon = $("#" + selectedWicon);
+        } else {
+            $wicon = $("#" + selectedWicon);
             $wicon.addClass("active");
             $wicon.children(".window").fadeOut(0);
             $wicon.children(".window").show(0);
@@ -170,47 +210,3 @@ function colapse(event) {
     $(element).fadeIn(1000);
     $(button).hide(0);
 }
-
-function cursos() {
-    $(".wiconContainer > #diplomados > #D1").css("transition-delay", "0.0s");
-    $(".wiconContainer > #diplomados > #D2").css("transition-delay", ".2s");
-    $(".wiconContainer > #diplomados > #D3").css("transition-delay", ".4s");
-    $(".wiconContainer > #diplomados > #D4").css("transition-delay", ".6s");
-    $(".wiconContainer > #diplomados > #D5").css("transition-delay", ".8s");
-    $(".wiconContainer > #diplomados > #D6").css("transition-delay", "1.0s");
-    $(".wiconContainer > #diplomados > #D1").css("-webkit-transition-delay", "0.0s");
-    $(".wiconContainer > #diplomados > #D2").css("-webkit-transition-delay", ".2s");
-    $(".wiconContainer > #diplomados > #D3").css("-webkit-transition-delay", ".4s");
-    $(".wiconContainer > #diplomados > #D4").css("-webkit-transition-delay", ".6s");
-    $(".wiconContainer > #diplomados > #D5").css("-webkit-transition-delay", ".8s");
-    $(".wiconContainer > #diplomados > #D6").css("-webkit-transition-delay", "1.0s");
-    $(".wiconContainer > #diplomados > div").css("transform", "rotateX(180deg)").css("opacity", "0");
-    setTimeout(function() {
-        $("#diplomados").hide();
-        $("#cursos").fadeIn(1000);
-    }, 1500);
-}
-
-function diplomados() {
-    $(".wiconContainer > #diplomados > div").css("transition-delay", "0.0s");
-    $(".wiconContainer > #diplomados > div").css("-webkit-transition-delay", "0.0s");
-    $(".wiconContainer > #diplomados > div").css("transform", "rotateX(0deg)").css("opacity", "1");
-    
-        $("#cursos").hide();
-        $("#diplomados").fadeIn(1000);
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
