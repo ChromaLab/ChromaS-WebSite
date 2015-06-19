@@ -228,7 +228,7 @@ body {
   color: #333;
 }
 .wiconContainer > header nav a:hover {
-  background-color: #dcbd6d;
+  background-color: #6ede51;
   color: white !important;
 }
 .wiconContainer #diplomados {
@@ -242,7 +242,7 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dc7b71;
+  background-color: #dca552;
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #D1 {
@@ -285,16 +285,16 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .wiconContainer #D1 .wicon > footer {
-  background-color: #dc7b71;
+  background-color: #dca552;
 }
 .wiconContainer #D1 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .wiconContainer #D1 .window header {
-  background-color: #dc7b71;
+  background-color: #dca552;
 }
 .wiconContainer #D1 .window header .botonHome {
-  background-color: #d25548;
+  background-color: #d18e2a;
 }
 .wiconContainer #D1 .window footer {
   background-color: #e5e5e5;
@@ -317,7 +317,7 @@ body {
   text-decoration: underline;
 }
 .wiconContainer #D1 .window .intro > div > div {
-  background-color: rgba(210, 85, 72, 0.9);
+  background-color: rgba(209, 142, 42, 0.9);
 }
 .wiconContainer #D1 .window .horario {
   border-radius: 10px 10px 0 0;
@@ -328,12 +328,12 @@ body {
 }
 .wiconContainer #D1 .window .inversion,
 .wiconContainer #D1 .window .certificado {
-  background-color: rgba(210, 85, 72, 0.6);
+  background-color: rgba(209, 142, 42, 0.6);
   color: white;
 }
 .wiconContainer #D1 .window .inversion .panel.sombra,
 .wiconContainer #D1 .window .certificado .panel.sombra {
-  background-color: #d25548;
+  background-color: #d18e2a;
 }
 .wiconContainer #D1 .window .inversion .panel.sombra h3,
 .wiconContainer #D1 .window .certificado .panel.sombra h3 {
@@ -341,18 +341,18 @@ body {
 }
 .wiconContainer #D1 .window .inversion .panel h3,
 .wiconContainer #D1 .window .certificado .panel h3 {
-  color: #d25548;
+  color: #d18e2a;
 }
 .wiconContainer #D1 .window .pago .botonBack {
-  background-color: #d25548;
+  background-color: #d18e2a;
 }
 .wiconContainer #D1 .window .btn.btn-primary {
-  background-color: rgba(220, 123, 113, 0.9);
-  border: 1px solid #d25548;
+  background-color: rgba(220, 165, 82, 0.9);
+  border: 1px solid #d18e2a;
 }
 .wiconContainer #D1 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 123, 113, 0.9);
+  background-color: rgba(220, 165, 82, 0.9);
 }
 .wiconContainer #D1 .window .btn-group-vertical .btn:hover {
   color: white;
@@ -361,7 +361,7 @@ body {
   margin-top: 0px;
 }
 .wiconContainer #D1 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 85, 72, 0.9);
+  background-color: rgba(209, 142, 42, 0.9);
 }
 .wiconContainer #D1 .windowContent > .intro {
   background-image: url(../img/DWeb-header2.png);
@@ -374,7 +374,7 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #a172e6;
+  background-color: #e64f64;
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #D2 {
@@ -417,16 +417,16 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .wiconContainer #D2 .wicon > footer {
-  background-color: #a172e6;
+  background-color: #e64f64;
 }
 .wiconContainer #D2 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .wiconContainer #D2 .window header {
-  background-color: #a172e6;
+  background-color: #e64f64;
 }
 .wiconContainer #D2 .window header .botonHome {
-  background-color: #8447de;
+  background-color: #e0223d;
 }
 .wiconContainer #D2 .window footer {
   background-color: #e5e5e5;
@@ -449,7 +449,7 @@ body {
   text-decoration: underline;
 }
 .wiconContainer #D2 .window .intro > div > div {
-  background-color: rgba(132, 71, 222, 0.9);
+  background-color: rgba(224, 34, 61, 0.9);
 }
 .wiconContainer #D2 .window .horario {
   border-radius: 10px 10px 0 0;
@@ -460,12 +460,12 @@ body {
 }
 .wiconContainer #D2 .window .inversion,
 .wiconContainer #D2 .window .certificado {
-  background-color: rgba(132, 71, 222, 0.6);
+  background-color: rgba(224, 34, 61, 0.6);
   color: white;
 }
 .wiconContainer #D2 .window .inversion .panel.sombra,
 .wiconContainer #D2 .window .certificado .panel.sombra {
-  background-color: #8447de;
+  background-color: #e0223d;
 }
 .wiconContainer #D2 .window .inversion .panel.sombra h3,
 .wiconContainer #D2 .window .certificado .panel.sombra h3 {
@@ -473,18 +473,18 @@ body {
 }
 .wiconContainer #D2 .window .inversion .panel h3,
 .wiconContainer #D2 .window .certificado .panel h3 {
-  color: #8447de;
+  color: #e0223d;
 }
 .wiconContainer #D2 .window .pago .botonBack {
-  background-color: #8447de;
+  background-color: #e0223d;
 }
 .wiconContainer #D2 .window .btn.btn-primary {
-  background-color: rgba(161, 114, 230, 0.9);
-  border: 1px solid #8447de;
+  background-color: rgba(230, 79, 100, 0.9);
+  border: 1px solid #e0223d;
 }
 .wiconContainer #D2 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(161, 114, 230, 0.9);
+  background-color: rgba(230, 79, 100, 0.9);
 }
 .wiconContainer #D2 .window .btn-group-vertical .btn:hover {
   color: white;
@@ -493,9 +493,9 @@ body {
   margin-top: 0px;
 }
 .wiconContainer #D2 .window .btn-group-vertical .btn.active {
-  background-color: rgba(132, 71, 222, 0.9);
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #D3 {
+#D3 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -503,18 +503,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #71c3cf;
+  background-color: #643ecf;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D3 {
+  #D3 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #D3 .btn-toolbar {
+  #D3 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #D3.active {
+#D3.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -525,106 +525,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D3 {
+  #D3 {
     width: 33%;
     height: calc(2 * (100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D3 {
+  #D3 {
     left: 66%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D3 {
+  #D3 {
     left: 50%;
     top: 100px;
   }
 }
-.wiconContainer #D3 .wicon > .telon {
+#D3 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D3 .wicon > footer {
-  background-color: #71c3cf;
+#D3 .wicon > footer {
+  background-color: #643ecf;
 }
-.wiconContainer #D3 .window {
+#D3 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D3 .window header {
-  background-color: #71c3cf;
+#D3 .window header {
+  background-color: #643ecf;
 }
-.wiconContainer #D3 .window header .botonHome {
-  background-color: #4bb3c2;
+#D3 .window header .botonHome {
+  background-color: #4e2baf;
 }
-.wiconContainer #D3 .window footer {
+#D3 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #D3 .window footer a:link,
-.wiconContainer #D3 .window footer a:visited {
+#D3 .window footer a:link,
+#D3 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #D3 .window footer .socialMedia a:link,
-.wiconContainer #D3 .window footer .socialMedia a:visited {
+#D3 .window footer .socialMedia a:link,
+#D3 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #D3 .window footer a:hover {
+#D3 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #D3 .window a:link,
-.wiconContainer #D3 .window a:visited {
+#D3 .window a:link,
+#D3 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #D3 .window .intro > div > div {
-  background-color: rgba(75, 179, 194, 0.9);
+#D3 .window .intro > div > div {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #D3 .window .horario {
+#D3 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #D3 .window .horario,
-.wiconContainer #D3 .window .info {
+#D3 .window .horario,
+#D3 .window .info {
   background-color: white;
 }
-.wiconContainer #D3 .window .inversion,
-.wiconContainer #D3 .window .certificado {
-  background-color: rgba(75, 179, 194, 0.6);
+#D3 .window .inversion,
+#D3 .window .certificado {
+  background-color: rgba(78, 43, 175, 0.6);
   color: white;
 }
-.wiconContainer #D3 .window .inversion .panel.sombra,
-.wiconContainer #D3 .window .certificado .panel.sombra {
-  background-color: #4bb3c2;
+#D3 .window .inversion .panel.sombra,
+#D3 .window .certificado .panel.sombra {
+  background-color: #4e2baf;
 }
-.wiconContainer #D3 .window .inversion .panel.sombra h3,
-.wiconContainer #D3 .window .certificado .panel.sombra h3 {
+#D3 .window .inversion .panel.sombra h3,
+#D3 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #D3 .window .inversion .panel h3,
-.wiconContainer #D3 .window .certificado .panel h3 {
-  color: #4bb3c2;
+#D3 .window .inversion .panel h3,
+#D3 .window .certificado .panel h3 {
+  color: #4e2baf;
 }
-.wiconContainer #D3 .window .pago .botonBack {
-  background-color: #4bb3c2;
+#D3 .window .pago .botonBack {
+  background-color: #4e2baf;
 }
-.wiconContainer #D3 .window .btn.btn-primary {
-  background-color: rgba(113, 195, 207, 0.9);
-  border: 1px solid #4bb3c2;
+#D3 .window .btn.btn-primary {
+  background-color: rgba(100, 62, 207, 0.9);
+  border: 1px solid #4e2baf;
 }
-.wiconContainer #D3 .window .btn-group-vertical .btn {
+#D3 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(113, 195, 207, 0.9);
+  background-color: rgba(100, 62, 207, 0.9);
 }
-.wiconContainer #D3 .window .btn-group-vertical .btn:hover {
+#D3 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #D3 .window .btn-group-vertical .btn + .btn {
+#D3 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #D3 .window .btn-group-vertical .btn.active {
-  background-color: rgba(75, 179, 194, 0.9);
+#D3 .window .btn-group-vertical .btn.active {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #D4 {
+#D4 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -632,18 +632,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #92e672;
+  background-color: #48d9e6;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D4 {
+  #D4 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #D4 .btn-toolbar {
+  #D4 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #D4.active {
+#D4.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -654,109 +654,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D4 {
+  #D4 {
     width: 33%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D4 {
+  #D4 {
     left: 0%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D4 {
+  #D4 {
     left: 0%;
     top: 350px;
   }
 }
-.wiconContainer #D4 .wicon > .telon {
+#D4 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D4 .wicon > footer {
-  background-color: #92e672;
+#D4 .wicon > footer {
+  background-color: #48d9e6;
 }
-.wiconContainer #D4 .window {
+#D4 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D4 .window header {
-  background-color: #92e672;
+#D4 .window header {
+  background-color: #48d9e6;
 }
-.wiconContainer #D4 .window header .botonHome {
-  background-color: #71de47;
+#D4 .window header .botonHome {
+  background-color: #1ecddd;
 }
-.wiconContainer #D4 .window footer {
+#D4 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #D4 .window footer a:link,
-.wiconContainer #D4 .window footer a:visited {
+#D4 .window footer a:link,
+#D4 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #D4 .window footer .socialMedia a:link,
-.wiconContainer #D4 .window footer .socialMedia a:visited {
+#D4 .window footer .socialMedia a:link,
+#D4 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #D4 .window footer a:hover {
+#D4 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #D4 .window a:link,
-.wiconContainer #D4 .window a:visited {
+#D4 .window a:link,
+#D4 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #D4 .window .intro > div > div {
-  background-color: rgba(113, 222, 71, 0.9);
+#D4 .window .intro > div > div {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #D4 .window .horario {
+#D4 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #D4 .window .horario,
-.wiconContainer #D4 .window .info {
+#D4 .window .horario,
+#D4 .window .info {
   background-color: white;
 }
-.wiconContainer #D4 .window .inversion,
-.wiconContainer #D4 .window .certificado {
-  background-color: rgba(113, 222, 71, 0.6);
+#D4 .window .inversion,
+#D4 .window .certificado {
+  background-color: rgba(30, 205, 221, 0.6);
   color: white;
 }
-.wiconContainer #D4 .window .inversion .panel.sombra,
-.wiconContainer #D4 .window .certificado .panel.sombra {
-  background-color: #71de47;
+#D4 .window .inversion .panel.sombra,
+#D4 .window .certificado .panel.sombra {
+  background-color: #1ecddd;
 }
-.wiconContainer #D4 .window .inversion .panel.sombra h3,
-.wiconContainer #D4 .window .certificado .panel.sombra h3 {
+#D4 .window .inversion .panel.sombra h3,
+#D4 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #D4 .window .inversion .panel h3,
-.wiconContainer #D4 .window .certificado .panel h3 {
-  color: #71de47;
+#D4 .window .inversion .panel h3,
+#D4 .window .certificado .panel h3 {
+  color: #1ecddd;
 }
-.wiconContainer #D4 .window .pago .botonBack {
-  background-color: #71de47;
+#D4 .window .pago .botonBack {
+  background-color: #1ecddd;
 }
-.wiconContainer #D4 .window .btn.btn-primary {
-  background-color: rgba(146, 230, 114, 0.9);
-  border: 1px solid #71de47;
+#D4 .window .btn.btn-primary {
+  background-color: rgba(72, 217, 230, 0.9);
+  border: 1px solid #1ecddd;
 }
-.wiconContainer #D4 .window .btn-group-vertical .btn {
+#D4 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(146, 230, 114, 0.9);
+  background-color: rgba(72, 217, 230, 0.9);
 }
-.wiconContainer #D4 .window .btn-group-vertical .btn:hover {
+#D4 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #D4 .window .btn-group-vertical .btn + .btn {
+#D4 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #D4 .window .btn-group-vertical .btn.active {
-  background-color: rgba(113, 222, 71, 0.9);
+#D4 .window .btn-group-vertical .btn.active {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #D4 .windowContent > .intro {
-  background-image: url(../img/UX-header.png);
-}
-.wiconContainer #D5 {
+#D5 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -764,18 +761,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dcbd6d;
+  background-color: #6ede51;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D5 {
+  #D5 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #D5 .btn-toolbar {
+  #D5 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #D5.active {
+#D5.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -786,109 +783,109 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D5 {
+  #D5 {
     width: 33%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D5 {
+  #D5 {
     left: 33%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D5 {
+  #D5 {
     left: 50%;
     top: 850px;
   }
 }
-.wiconContainer #D5 .wicon > .telon {
+#D5 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D5 .wicon > footer {
-  background-color: #dcbd6d;
+#D5 .wicon > footer {
+  background-color: #6ede51;
 }
-.wiconContainer #D5 .window {
+#D5 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D5 .window header {
-  background-color: #dcbd6d;
+#D5 .window header {
+  background-color: #6ede51;
 }
-.wiconContainer #D5 .window header .botonHome {
-  background-color: #d2aa44;
+#D5 .window header .botonHome {
+  background-color: #4bd428;
 }
-.wiconContainer #D5 .window footer {
+#D5 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #D5 .window footer a:link,
-.wiconContainer #D5 .window footer a:visited {
+#D5 .window footer a:link,
+#D5 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #D5 .window footer .socialMedia a:link,
-.wiconContainer #D5 .window footer .socialMedia a:visited {
+#D5 .window footer .socialMedia a:link,
+#D5 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #D5 .window footer a:hover {
+#D5 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #D5 .window a:link,
-.wiconContainer #D5 .window a:visited {
+#D5 .window a:link,
+#D5 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #D5 .window .intro > div > div {
-  background-color: rgba(210, 170, 68, 0.9);
+#D5 .window .intro > div > div {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #D5 .window .horario {
+#D5 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #D5 .window .horario,
-.wiconContainer #D5 .window .info {
+#D5 .window .horario,
+#D5 .window .info {
   background-color: white;
 }
-.wiconContainer #D5 .window .inversion,
-.wiconContainer #D5 .window .certificado {
-  background-color: rgba(210, 170, 68, 0.6);
+#D5 .window .inversion,
+#D5 .window .certificado {
+  background-color: rgba(75, 212, 40, 0.6);
   color: white;
 }
-.wiconContainer #D5 .window .inversion .panel.sombra,
-.wiconContainer #D5 .window .certificado .panel.sombra {
-  background-color: #d2aa44;
+#D5 .window .inversion .panel.sombra,
+#D5 .window .certificado .panel.sombra {
+  background-color: #4bd428;
 }
-.wiconContainer #D5 .window .inversion .panel.sombra h3,
-.wiconContainer #D5 .window .certificado .panel.sombra h3 {
+#D5 .window .inversion .panel.sombra h3,
+#D5 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #D5 .window .inversion .panel h3,
-.wiconContainer #D5 .window .certificado .panel h3 {
-  color: #d2aa44;
+#D5 .window .inversion .panel h3,
+#D5 .window .certificado .panel h3 {
+  color: #4bd428;
 }
-.wiconContainer #D5 .window .pago .botonBack {
-  background-color: #d2aa44;
+#D5 .window .pago .botonBack {
+  background-color: #4bd428;
 }
-.wiconContainer #D5 .window .btn.btn-primary {
-  background-color: rgba(220, 189, 109, 0.9);
-  border: 1px solid #d2aa44;
+#D5 .window .btn.btn-primary {
+  background-color: rgba(110, 222, 81, 0.9);
+  border: 1px solid #4bd428;
 }
-.wiconContainer #D5 .window .btn-group-vertical .btn {
+#D5 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 189, 109, 0.9);
+  background-color: rgba(110, 222, 81, 0.9);
 }
-.wiconContainer #D5 .window .btn-group-vertical .btn:hover {
+#D5 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #D5 .window .btn-group-vertical .btn + .btn {
+#D5 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #D5 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 170, 68, 0.9);
+#D5 .window .btn-group-vertical .btn.active {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #D5 .windowContent > .intro {
+#D5 .windowContent > .intro {
   background-image: url(../img/AdProyectos-header.png);
 }
-.wiconContainer #D6 {
+#D6 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -896,18 +893,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dc7b71;
+  background-color: #dca552;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D6 {
+  #D6 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #D6 .btn-toolbar {
+  #D6 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #D6.active {
+#D6.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -918,109 +915,109 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D6 {
+  #D6 {
     width: 33%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #D6 {
+  #D6 {
     left: 66%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #D6 {
+  #D6 {
     left: 50%;
     top: 350px;
   }
 }
-.wiconContainer #D6 .wicon > .telon {
+#D6 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D6 .wicon > footer {
-  background-color: #dc7b71;
+#D6 .wicon > footer {
+  background-color: #dca552;
 }
-.wiconContainer #D6 .window {
+#D6 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #D6 .window header {
-  background-color: #dc7b71;
+#D6 .window header {
+  background-color: #dca552;
 }
-.wiconContainer #D6 .window header .botonHome {
-  background-color: #d25548;
+#D6 .window header .botonHome {
+  background-color: #d18e2a;
 }
-.wiconContainer #D6 .window footer {
+#D6 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #D6 .window footer a:link,
-.wiconContainer #D6 .window footer a:visited {
+#D6 .window footer a:link,
+#D6 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #D6 .window footer .socialMedia a:link,
-.wiconContainer #D6 .window footer .socialMedia a:visited {
+#D6 .window footer .socialMedia a:link,
+#D6 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #D6 .window footer a:hover {
+#D6 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #D6 .window a:link,
-.wiconContainer #D6 .window a:visited {
+#D6 .window a:link,
+#D6 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #D6 .window .intro > div > div {
-  background-color: rgba(210, 85, 72, 0.9);
+#D6 .window .intro > div > div {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #D6 .window .horario {
+#D6 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #D6 .window .horario,
-.wiconContainer #D6 .window .info {
+#D6 .window .horario,
+#D6 .window .info {
   background-color: white;
 }
-.wiconContainer #D6 .window .inversion,
-.wiconContainer #D6 .window .certificado {
-  background-color: rgba(210, 85, 72, 0.6);
+#D6 .window .inversion,
+#D6 .window .certificado {
+  background-color: rgba(209, 142, 42, 0.6);
   color: white;
 }
-.wiconContainer #D6 .window .inversion .panel.sombra,
-.wiconContainer #D6 .window .certificado .panel.sombra {
-  background-color: #d25548;
+#D6 .window .inversion .panel.sombra,
+#D6 .window .certificado .panel.sombra {
+  background-color: #d18e2a;
 }
-.wiconContainer #D6 .window .inversion .panel.sombra h3,
-.wiconContainer #D6 .window .certificado .panel.sombra h3 {
+#D6 .window .inversion .panel.sombra h3,
+#D6 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #D6 .window .inversion .panel h3,
-.wiconContainer #D6 .window .certificado .panel h3 {
-  color: #d25548;
+#D6 .window .inversion .panel h3,
+#D6 .window .certificado .panel h3 {
+  color: #d18e2a;
 }
-.wiconContainer #D6 .window .pago .botonBack {
-  background-color: #d25548;
+#D6 .window .pago .botonBack {
+  background-color: #d18e2a;
 }
-.wiconContainer #D6 .window .btn.btn-primary {
-  background-color: rgba(220, 123, 113, 0.9);
-  border: 1px solid #d25548;
+#D6 .window .btn.btn-primary {
+  background-color: rgba(220, 165, 82, 0.9);
+  border: 1px solid #d18e2a;
 }
-.wiconContainer #D6 .window .btn-group-vertical .btn {
+#D6 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 123, 113, 0.9);
+  background-color: rgba(220, 165, 82, 0.9);
 }
-.wiconContainer #D6 .window .btn-group-vertical .btn:hover {
+#D6 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #D6 .window .btn-group-vertical .btn + .btn {
+#D6 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #D6 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 85, 72, 0.9);
+#D6 .window .btn-group-vertical .btn.active {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #D6 .windowContent > .intro {
+#D6 .windowContent > .intro {
   background-image: url(../img/ArtGeneratico-header.png);
 }
-.wiconContainer #C1 {
+#C1 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1028,18 +1025,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #a172e6;
+  background-color: #e64f64;
+  background-image: url(../img/UX-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C1 {
+  #C1 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C1 .btn-toolbar {
+  #C1 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C1.active {
+#C1.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1050,106 +1048,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C1 {
+  #C1 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C1 {
+  #C1 {
     left: 0%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C1 {
+  #C1 {
     left: 0%;
     top: 1100px;
   }
 }
-.wiconContainer #C1 .wicon > .telon {
+#C1 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C1 .wicon > footer {
-  background-color: #a172e6;
+#C1 .wicon > footer {
+  background-color: #e64f64;
 }
-.wiconContainer #C1 .window {
+#C1 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C1 .window header {
-  background-color: #a172e6;
+#C1 .window header {
+  background-color: #e64f64;
 }
-.wiconContainer #C1 .window header .botonHome {
-  background-color: #8447de;
+#C1 .window header .botonHome {
+  background-color: #e0223d;
 }
-.wiconContainer #C1 .window footer {
+#C1 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C1 .window footer a:link,
-.wiconContainer #C1 .window footer a:visited {
+#C1 .window footer a:link,
+#C1 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C1 .window footer .socialMedia a:link,
-.wiconContainer #C1 .window footer .socialMedia a:visited {
+#C1 .window footer .socialMedia a:link,
+#C1 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C1 .window footer a:hover {
+#C1 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C1 .window a:link,
-.wiconContainer #C1 .window a:visited {
+#C1 .window a:link,
+#C1 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C1 .window .intro > div > div {
-  background-color: rgba(132, 71, 222, 0.9);
+#C1 .window .intro > div > div {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C1 .window .horario {
+#C1 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C1 .window .horario,
-.wiconContainer #C1 .window .info {
+#C1 .window .horario,
+#C1 .window .info {
   background-color: white;
 }
-.wiconContainer #C1 .window .inversion,
-.wiconContainer #C1 .window .certificado {
-  background-color: rgba(132, 71, 222, 0.6);
+#C1 .window .inversion,
+#C1 .window .certificado {
+  background-color: rgba(224, 34, 61, 0.6);
   color: white;
 }
-.wiconContainer #C1 .window .inversion .panel.sombra,
-.wiconContainer #C1 .window .certificado .panel.sombra {
-  background-color: #8447de;
+#C1 .window .inversion .panel.sombra,
+#C1 .window .certificado .panel.sombra {
+  background-color: #e0223d;
 }
-.wiconContainer #C1 .window .inversion .panel.sombra h3,
-.wiconContainer #C1 .window .certificado .panel.sombra h3 {
+#C1 .window .inversion .panel.sombra h3,
+#C1 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C1 .window .inversion .panel h3,
-.wiconContainer #C1 .window .certificado .panel h3 {
-  color: #8447de;
+#C1 .window .inversion .panel h3,
+#C1 .window .certificado .panel h3 {
+  color: #e0223d;
 }
-.wiconContainer #C1 .window .pago .botonBack {
-  background-color: #8447de;
+#C1 .window .pago .botonBack {
+  background-color: #e0223d;
 }
-.wiconContainer #C1 .window .btn.btn-primary {
-  background-color: rgba(161, 114, 230, 0.9);
-  border: 1px solid #8447de;
+#C1 .window .btn.btn-primary {
+  background-color: rgba(230, 79, 100, 0.9);
+  border: 1px solid #e0223d;
 }
-.wiconContainer #C1 .window .btn-group-vertical .btn {
+#C1 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(161, 114, 230, 0.9);
+  background-color: rgba(230, 79, 100, 0.9);
 }
-.wiconContainer #C1 .window .btn-group-vertical .btn:hover {
+#C1 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C1 .window .btn-group-vertical .btn + .btn {
+#C1 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C1 .window .btn-group-vertical .btn.active {
-  background-color: rgba(132, 71, 222, 0.9);
+#C1 .window .btn-group-vertical .btn.active {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C2 {
+#C2 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1157,18 +1155,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #71c3cf;
+  background-color: #643ecf;
+  background-image: url(../img/AdProyectos-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C2 {
+  #C2 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C2 .btn-toolbar {
+  #C2 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C2.active {
+#C2.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1179,106 +1178,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C2 {
+  #C2 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C2 {
+  #C2 {
     left: 16.5%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C2 {
+  #C2 {
     left: 0%;
     top: 850px;
   }
 }
-.wiconContainer #C2 .wicon > .telon {
+#C2 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C2 .wicon > footer {
-  background-color: #71c3cf;
+#C2 .wicon > footer {
+  background-color: #643ecf;
 }
-.wiconContainer #C2 .window {
+#C2 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C2 .window header {
-  background-color: #71c3cf;
+#C2 .window header {
+  background-color: #643ecf;
 }
-.wiconContainer #C2 .window header .botonHome {
-  background-color: #4bb3c2;
+#C2 .window header .botonHome {
+  background-color: #4e2baf;
 }
-.wiconContainer #C2 .window footer {
+#C2 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C2 .window footer a:link,
-.wiconContainer #C2 .window footer a:visited {
+#C2 .window footer a:link,
+#C2 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C2 .window footer .socialMedia a:link,
-.wiconContainer #C2 .window footer .socialMedia a:visited {
+#C2 .window footer .socialMedia a:link,
+#C2 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C2 .window footer a:hover {
+#C2 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C2 .window a:link,
-.wiconContainer #C2 .window a:visited {
+#C2 .window a:link,
+#C2 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C2 .window .intro > div > div {
-  background-color: rgba(75, 179, 194, 0.9);
+#C2 .window .intro > div > div {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C2 .window .horario {
+#C2 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C2 .window .horario,
-.wiconContainer #C2 .window .info {
+#C2 .window .horario,
+#C2 .window .info {
   background-color: white;
 }
-.wiconContainer #C2 .window .inversion,
-.wiconContainer #C2 .window .certificado {
-  background-color: rgba(75, 179, 194, 0.6);
+#C2 .window .inversion,
+#C2 .window .certificado {
+  background-color: rgba(78, 43, 175, 0.6);
   color: white;
 }
-.wiconContainer #C2 .window .inversion .panel.sombra,
-.wiconContainer #C2 .window .certificado .panel.sombra {
-  background-color: #4bb3c2;
+#C2 .window .inversion .panel.sombra,
+#C2 .window .certificado .panel.sombra {
+  background-color: #4e2baf;
 }
-.wiconContainer #C2 .window .inversion .panel.sombra h3,
-.wiconContainer #C2 .window .certificado .panel.sombra h3 {
+#C2 .window .inversion .panel.sombra h3,
+#C2 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C2 .window .inversion .panel h3,
-.wiconContainer #C2 .window .certificado .panel h3 {
-  color: #4bb3c2;
+#C2 .window .inversion .panel h3,
+#C2 .window .certificado .panel h3 {
+  color: #4e2baf;
 }
-.wiconContainer #C2 .window .pago .botonBack {
-  background-color: #4bb3c2;
+#C2 .window .pago .botonBack {
+  background-color: #4e2baf;
 }
-.wiconContainer #C2 .window .btn.btn-primary {
-  background-color: rgba(113, 195, 207, 0.9);
-  border: 1px solid #4bb3c2;
+#C2 .window .btn.btn-primary {
+  background-color: rgba(100, 62, 207, 0.9);
+  border: 1px solid #4e2baf;
 }
-.wiconContainer #C2 .window .btn-group-vertical .btn {
+#C2 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(113, 195, 207, 0.9);
+  background-color: rgba(100, 62, 207, 0.9);
 }
-.wiconContainer #C2 .window .btn-group-vertical .btn:hover {
+#C2 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C2 .window .btn-group-vertical .btn + .btn {
+#C2 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C2 .window .btn-group-vertical .btn.active {
-  background-color: rgba(75, 179, 194, 0.9);
+#C2 .window .btn-group-vertical .btn.active {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C3 {
+#C3 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1286,18 +1285,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #92e672;
+  background-color: #48d9e6;
+  background-image: url(../img/ArtGeneratico-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C3 {
+  #C3 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C3 .btn-toolbar {
+  #C3 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C3.active {
+#C3.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1308,106 +1308,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C3 {
+  #C3 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C3 {
+  #C3 {
     left: 33%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C3 {
+  #C3 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C3 .wicon > .telon {
+#C3 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C3 .wicon > footer {
-  background-color: #92e672;
+#C3 .wicon > footer {
+  background-color: #48d9e6;
 }
-.wiconContainer #C3 .window {
+#C3 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C3 .window header {
-  background-color: #92e672;
+#C3 .window header {
+  background-color: #48d9e6;
 }
-.wiconContainer #C3 .window header .botonHome {
-  background-color: #71de47;
+#C3 .window header .botonHome {
+  background-color: #1ecddd;
 }
-.wiconContainer #C3 .window footer {
+#C3 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C3 .window footer a:link,
-.wiconContainer #C3 .window footer a:visited {
+#C3 .window footer a:link,
+#C3 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C3 .window footer .socialMedia a:link,
-.wiconContainer #C3 .window footer .socialMedia a:visited {
+#C3 .window footer .socialMedia a:link,
+#C3 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C3 .window footer a:hover {
+#C3 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C3 .window a:link,
-.wiconContainer #C3 .window a:visited {
+#C3 .window a:link,
+#C3 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C3 .window .intro > div > div {
-  background-color: rgba(113, 222, 71, 0.9);
+#C3 .window .intro > div > div {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #C3 .window .horario {
+#C3 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C3 .window .horario,
-.wiconContainer #C3 .window .info {
+#C3 .window .horario,
+#C3 .window .info {
   background-color: white;
 }
-.wiconContainer #C3 .window .inversion,
-.wiconContainer #C3 .window .certificado {
-  background-color: rgba(113, 222, 71, 0.6);
+#C3 .window .inversion,
+#C3 .window .certificado {
+  background-color: rgba(30, 205, 221, 0.6);
   color: white;
 }
-.wiconContainer #C3 .window .inversion .panel.sombra,
-.wiconContainer #C3 .window .certificado .panel.sombra {
-  background-color: #71de47;
+#C3 .window .inversion .panel.sombra,
+#C3 .window .certificado .panel.sombra {
+  background-color: #1ecddd;
 }
-.wiconContainer #C3 .window .inversion .panel.sombra h3,
-.wiconContainer #C3 .window .certificado .panel.sombra h3 {
+#C3 .window .inversion .panel.sombra h3,
+#C3 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C3 .window .inversion .panel h3,
-.wiconContainer #C3 .window .certificado .panel h3 {
-  color: #71de47;
+#C3 .window .inversion .panel h3,
+#C3 .window .certificado .panel h3 {
+  color: #1ecddd;
 }
-.wiconContainer #C3 .window .pago .botonBack {
-  background-color: #71de47;
+#C3 .window .pago .botonBack {
+  background-color: #1ecddd;
 }
-.wiconContainer #C3 .window .btn.btn-primary {
-  background-color: rgba(146, 230, 114, 0.9);
-  border: 1px solid #71de47;
+#C3 .window .btn.btn-primary {
+  background-color: rgba(72, 217, 230, 0.9);
+  border: 1px solid #1ecddd;
 }
-.wiconContainer #C3 .window .btn-group-vertical .btn {
+#C3 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(146, 230, 114, 0.9);
+  background-color: rgba(72, 217, 230, 0.9);
 }
-.wiconContainer #C3 .window .btn-group-vertical .btn:hover {
+#C3 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C3 .window .btn-group-vertical .btn + .btn {
+#C3 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C3 .window .btn-group-vertical .btn.active {
-  background-color: rgba(113, 222, 71, 0.9);
+#C3 .window .btn-group-vertical .btn.active {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #C4 {
+#C4 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1415,18 +1415,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dcbd6d;
+  background-color: #6ede51;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C4 {
+  #C4 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C4 .btn-toolbar {
+  #C4 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C4.active {
+#C4.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1437,109 +1437,109 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C4 {
+  #C4 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C4 {
+  #C4 {
     left: 49.5%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C4 {
+  #C4 {
     left: 0%;
     top: 600px;
   }
 }
-.wiconContainer #C4 .wicon > .telon {
+#C4 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C4 .wicon > footer {
-  background-color: #dcbd6d;
+#C4 .wicon > footer {
+  background-color: #6ede51;
 }
-.wiconContainer #C4 .window {
+#C4 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C4 .window header {
-  background-color: #dcbd6d;
+#C4 .window header {
+  background-color: #6ede51;
 }
-.wiconContainer #C4 .window header .botonHome {
-  background-color: #d2aa44;
+#C4 .window header .botonHome {
+  background-color: #4bd428;
 }
-.wiconContainer #C4 .window footer {
+#C4 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C4 .window footer a:link,
-.wiconContainer #C4 .window footer a:visited {
+#C4 .window footer a:link,
+#C4 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C4 .window footer .socialMedia a:link,
-.wiconContainer #C4 .window footer .socialMedia a:visited {
+#C4 .window footer .socialMedia a:link,
+#C4 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C4 .window footer a:hover {
+#C4 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C4 .window a:link,
-.wiconContainer #C4 .window a:visited {
+#C4 .window a:link,
+#C4 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C4 .window .intro > div > div {
-  background-color: rgba(210, 170, 68, 0.9);
+#C4 .window .intro > div > div {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #C4 .window .horario {
+#C4 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C4 .window .horario,
-.wiconContainer #C4 .window .info {
+#C4 .window .horario,
+#C4 .window .info {
   background-color: white;
 }
-.wiconContainer #C4 .window .inversion,
-.wiconContainer #C4 .window .certificado {
-  background-color: rgba(210, 170, 68, 0.6);
+#C4 .window .inversion,
+#C4 .window .certificado {
+  background-color: rgba(75, 212, 40, 0.6);
   color: white;
 }
-.wiconContainer #C4 .window .inversion .panel.sombra,
-.wiconContainer #C4 .window .certificado .panel.sombra {
-  background-color: #d2aa44;
+#C4 .window .inversion .panel.sombra,
+#C4 .window .certificado .panel.sombra {
+  background-color: #4bd428;
 }
-.wiconContainer #C4 .window .inversion .panel.sombra h3,
-.wiconContainer #C4 .window .certificado .panel.sombra h3 {
+#C4 .window .inversion .panel.sombra h3,
+#C4 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C4 .window .inversion .panel h3,
-.wiconContainer #C4 .window .certificado .panel h3 {
-  color: #d2aa44;
+#C4 .window .inversion .panel h3,
+#C4 .window .certificado .panel h3 {
+  color: #4bd428;
 }
-.wiconContainer #C4 .window .pago .botonBack {
-  background-color: #d2aa44;
+#C4 .window .pago .botonBack {
+  background-color: #4bd428;
 }
-.wiconContainer #C4 .window .btn.btn-primary {
-  background-color: rgba(220, 189, 109, 0.9);
-  border: 1px solid #d2aa44;
+#C4 .window .btn.btn-primary {
+  background-color: rgba(110, 222, 81, 0.9);
+  border: 1px solid #4bd428;
 }
-.wiconContainer #C4 .window .btn-group-vertical .btn {
+#C4 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 189, 109, 0.9);
+  background-color: rgba(110, 222, 81, 0.9);
 }
-.wiconContainer #C4 .window .btn-group-vertical .btn:hover {
+#C4 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C4 .window .btn-group-vertical .btn + .btn {
+#C4 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C4 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 170, 68, 0.9);
+#C4 .window .btn-group-vertical .btn.active {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #C4 .windowContent > .intro {
-  background-image: url(../img/Unity-header.png);
+#C4 .windowContent > .intro {
+  background-image: url(../img/Unity3D-header.png);
 }
-.wiconContainer #C5 {
+#C5 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1547,18 +1547,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dc7b71;
+  background-color: #dca552;
+  background-image: url(../img/AdministracionProyectos-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C5 {
+  #C5 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C5 .btn-toolbar {
+  #C5 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C5.active {
+#C5.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1569,106 +1570,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C5 {
+  #C5 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C5 {
+  #C5 {
     left: 66%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C5 {
+  #C5 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C5 .wicon > .telon {
+#C5 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C5 .wicon > footer {
-  background-color: #dc7b71;
+#C5 .wicon > footer {
+  background-color: #dca552;
 }
-.wiconContainer #C5 .window {
+#C5 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C5 .window header {
-  background-color: #dc7b71;
+#C5 .window header {
+  background-color: #dca552;
 }
-.wiconContainer #C5 .window header .botonHome {
-  background-color: #d25548;
+#C5 .window header .botonHome {
+  background-color: #d18e2a;
 }
-.wiconContainer #C5 .window footer {
+#C5 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C5 .window footer a:link,
-.wiconContainer #C5 .window footer a:visited {
+#C5 .window footer a:link,
+#C5 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C5 .window footer .socialMedia a:link,
-.wiconContainer #C5 .window footer .socialMedia a:visited {
+#C5 .window footer .socialMedia a:link,
+#C5 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C5 .window footer a:hover {
+#C5 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C5 .window a:link,
-.wiconContainer #C5 .window a:visited {
+#C5 .window a:link,
+#C5 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C5 .window .intro > div > div {
-  background-color: rgba(210, 85, 72, 0.9);
+#C5 .window .intro > div > div {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #C5 .window .horario {
+#C5 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C5 .window .horario,
-.wiconContainer #C5 .window .info {
+#C5 .window .horario,
+#C5 .window .info {
   background-color: white;
 }
-.wiconContainer #C5 .window .inversion,
-.wiconContainer #C5 .window .certificado {
-  background-color: rgba(210, 85, 72, 0.6);
+#C5 .window .inversion,
+#C5 .window .certificado {
+  background-color: rgba(209, 142, 42, 0.6);
   color: white;
 }
-.wiconContainer #C5 .window .inversion .panel.sombra,
-.wiconContainer #C5 .window .certificado .panel.sombra {
-  background-color: #d25548;
+#C5 .window .inversion .panel.sombra,
+#C5 .window .certificado .panel.sombra {
+  background-color: #d18e2a;
 }
-.wiconContainer #C5 .window .inversion .panel.sombra h3,
-.wiconContainer #C5 .window .certificado .panel.sombra h3 {
+#C5 .window .inversion .panel.sombra h3,
+#C5 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C5 .window .inversion .panel h3,
-.wiconContainer #C5 .window .certificado .panel h3 {
-  color: #d25548;
+#C5 .window .inversion .panel h3,
+#C5 .window .certificado .panel h3 {
+  color: #d18e2a;
 }
-.wiconContainer #C5 .window .pago .botonBack {
-  background-color: #d25548;
+#C5 .window .pago .botonBack {
+  background-color: #d18e2a;
 }
-.wiconContainer #C5 .window .btn.btn-primary {
-  background-color: rgba(220, 123, 113, 0.9);
-  border: 1px solid #d25548;
+#C5 .window .btn.btn-primary {
+  background-color: rgba(220, 165, 82, 0.9);
+  border: 1px solid #d18e2a;
 }
-.wiconContainer #C5 .window .btn-group-vertical .btn {
+#C5 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 123, 113, 0.9);
+  background-color: rgba(220, 165, 82, 0.9);
 }
-.wiconContainer #C5 .window .btn-group-vertical .btn:hover {
+#C5 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C5 .window .btn-group-vertical .btn + .btn {
+#C5 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C5 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 85, 72, 0.9);
+#C5 .window .btn-group-vertical .btn.active {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #C6 {
+#C6 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1676,18 +1677,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #a172e6;
+  background-color: #e64f64;
+  background-image: url(../img/Arduino-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C6 {
+  #C6 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C6 .btn-toolbar {
+  #C6 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C6.active {
+#C6.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1698,106 +1700,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C6 {
+  #C6 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C6 {
+  #C6 {
     left: 82.5%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C6 {
+  #C6 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C6 .wicon > .telon {
+#C6 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C6 .wicon > footer {
-  background-color: #a172e6;
+#C6 .wicon > footer {
+  background-color: #e64f64;
 }
-.wiconContainer #C6 .window {
+#C6 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C6 .window header {
-  background-color: #a172e6;
+#C6 .window header {
+  background-color: #e64f64;
 }
-.wiconContainer #C6 .window header .botonHome {
-  background-color: #8447de;
+#C6 .window header .botonHome {
+  background-color: #e0223d;
 }
-.wiconContainer #C6 .window footer {
+#C6 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C6 .window footer a:link,
-.wiconContainer #C6 .window footer a:visited {
+#C6 .window footer a:link,
+#C6 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C6 .window footer .socialMedia a:link,
-.wiconContainer #C6 .window footer .socialMedia a:visited {
+#C6 .window footer .socialMedia a:link,
+#C6 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C6 .window footer a:hover {
+#C6 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C6 .window a:link,
-.wiconContainer #C6 .window a:visited {
+#C6 .window a:link,
+#C6 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C6 .window .intro > div > div {
-  background-color: rgba(132, 71, 222, 0.9);
+#C6 .window .intro > div > div {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C6 .window .horario {
+#C6 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C6 .window .horario,
-.wiconContainer #C6 .window .info {
+#C6 .window .horario,
+#C6 .window .info {
   background-color: white;
 }
-.wiconContainer #C6 .window .inversion,
-.wiconContainer #C6 .window .certificado {
-  background-color: rgba(132, 71, 222, 0.6);
+#C6 .window .inversion,
+#C6 .window .certificado {
+  background-color: rgba(224, 34, 61, 0.6);
   color: white;
 }
-.wiconContainer #C6 .window .inversion .panel.sombra,
-.wiconContainer #C6 .window .certificado .panel.sombra {
-  background-color: #8447de;
+#C6 .window .inversion .panel.sombra,
+#C6 .window .certificado .panel.sombra {
+  background-color: #e0223d;
 }
-.wiconContainer #C6 .window .inversion .panel.sombra h3,
-.wiconContainer #C6 .window .certificado .panel.sombra h3 {
+#C6 .window .inversion .panel.sombra h3,
+#C6 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C6 .window .inversion .panel h3,
-.wiconContainer #C6 .window .certificado .panel h3 {
-  color: #8447de;
+#C6 .window .inversion .panel h3,
+#C6 .window .certificado .panel h3 {
+  color: #e0223d;
 }
-.wiconContainer #C6 .window .pago .botonBack {
-  background-color: #8447de;
+#C6 .window .pago .botonBack {
+  background-color: #e0223d;
 }
-.wiconContainer #C6 .window .btn.btn-primary {
-  background-color: rgba(161, 114, 230, 0.9);
-  border: 1px solid #8447de;
+#C6 .window .btn.btn-primary {
+  background-color: rgba(230, 79, 100, 0.9);
+  border: 1px solid #e0223d;
 }
-.wiconContainer #C6 .window .btn-group-vertical .btn {
+#C6 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(161, 114, 230, 0.9);
+  background-color: rgba(230, 79, 100, 0.9);
 }
-.wiconContainer #C6 .window .btn-group-vertical .btn:hover {
+#C6 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C6 .window .btn-group-vertical .btn + .btn {
+#C6 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C6 .window .btn-group-vertical .btn.active {
-  background-color: rgba(132, 71, 222, 0.9);
+#C6 .window .btn-group-vertical .btn.active {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C7 {
+#C7 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1805,18 +1807,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #71c3cf;
+  background-color: #643ecf;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C7 {
+  #C7 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C7 .btn-toolbar {
+  #C7 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C7.active {
+#C7.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1827,106 +1829,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C7 {
+  #C7 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C7 {
+  #C7 {
     left: 0%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C7 {
+  #C7 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C7 .wicon > .telon {
+#C7 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C7 .wicon > footer {
-  background-color: #71c3cf;
+#C7 .wicon > footer {
+  background-color: #643ecf;
 }
-.wiconContainer #C7 .window {
+#C7 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C7 .window header {
-  background-color: #71c3cf;
+#C7 .window header {
+  background-color: #643ecf;
 }
-.wiconContainer #C7 .window header .botonHome {
-  background-color: #4bb3c2;
+#C7 .window header .botonHome {
+  background-color: #4e2baf;
 }
-.wiconContainer #C7 .window footer {
+#C7 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C7 .window footer a:link,
-.wiconContainer #C7 .window footer a:visited {
+#C7 .window footer a:link,
+#C7 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C7 .window footer .socialMedia a:link,
-.wiconContainer #C7 .window footer .socialMedia a:visited {
+#C7 .window footer .socialMedia a:link,
+#C7 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C7 .window footer a:hover {
+#C7 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C7 .window a:link,
-.wiconContainer #C7 .window a:visited {
+#C7 .window a:link,
+#C7 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C7 .window .intro > div > div {
-  background-color: rgba(75, 179, 194, 0.9);
+#C7 .window .intro > div > div {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C7 .window .horario {
+#C7 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C7 .window .horario,
-.wiconContainer #C7 .window .info {
+#C7 .window .horario,
+#C7 .window .info {
   background-color: white;
 }
-.wiconContainer #C7 .window .inversion,
-.wiconContainer #C7 .window .certificado {
-  background-color: rgba(75, 179, 194, 0.6);
+#C7 .window .inversion,
+#C7 .window .certificado {
+  background-color: rgba(78, 43, 175, 0.6);
   color: white;
 }
-.wiconContainer #C7 .window .inversion .panel.sombra,
-.wiconContainer #C7 .window .certificado .panel.sombra {
-  background-color: #4bb3c2;
+#C7 .window .inversion .panel.sombra,
+#C7 .window .certificado .panel.sombra {
+  background-color: #4e2baf;
 }
-.wiconContainer #C7 .window .inversion .panel.sombra h3,
-.wiconContainer #C7 .window .certificado .panel.sombra h3 {
+#C7 .window .inversion .panel.sombra h3,
+#C7 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C7 .window .inversion .panel h3,
-.wiconContainer #C7 .window .certificado .panel h3 {
-  color: #4bb3c2;
+#C7 .window .inversion .panel h3,
+#C7 .window .certificado .panel h3 {
+  color: #4e2baf;
 }
-.wiconContainer #C7 .window .pago .botonBack {
-  background-color: #4bb3c2;
+#C7 .window .pago .botonBack {
+  background-color: #4e2baf;
 }
-.wiconContainer #C7 .window .btn.btn-primary {
-  background-color: rgba(113, 195, 207, 0.9);
-  border: 1px solid #4bb3c2;
+#C7 .window .btn.btn-primary {
+  background-color: rgba(100, 62, 207, 0.9);
+  border: 1px solid #4e2baf;
 }
-.wiconContainer #C7 .window .btn-group-vertical .btn {
+#C7 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(113, 195, 207, 0.9);
+  background-color: rgba(100, 62, 207, 0.9);
 }
-.wiconContainer #C7 .window .btn-group-vertical .btn:hover {
+#C7 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C7 .window .btn-group-vertical .btn + .btn {
+#C7 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C7 .window .btn-group-vertical .btn.active {
-  background-color: rgba(75, 179, 194, 0.9);
+#C7 .window .btn-group-vertical .btn.active {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C8 {
+#C8 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1934,18 +1936,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #92e672;
+  background-color: #48d9e6;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C8 {
+  #C8 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C8 .btn-toolbar {
+  #C8 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C8.active {
+#C8.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -1956,106 +1958,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C8 {
+  #C8 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C8 {
+  #C8 {
     left: 16.5%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C8 {
+  #C8 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C8 .wicon > .telon {
+#C8 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C8 .wicon > footer {
-  background-color: #92e672;
+#C8 .wicon > footer {
+  background-color: #48d9e6;
 }
-.wiconContainer #C8 .window {
+#C8 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C8 .window header {
-  background-color: #92e672;
+#C8 .window header {
+  background-color: #48d9e6;
 }
-.wiconContainer #C8 .window header .botonHome {
-  background-color: #71de47;
+#C8 .window header .botonHome {
+  background-color: #1ecddd;
 }
-.wiconContainer #C8 .window footer {
+#C8 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C8 .window footer a:link,
-.wiconContainer #C8 .window footer a:visited {
+#C8 .window footer a:link,
+#C8 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C8 .window footer .socialMedia a:link,
-.wiconContainer #C8 .window footer .socialMedia a:visited {
+#C8 .window footer .socialMedia a:link,
+#C8 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C8 .window footer a:hover {
+#C8 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C8 .window a:link,
-.wiconContainer #C8 .window a:visited {
+#C8 .window a:link,
+#C8 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C8 .window .intro > div > div {
-  background-color: rgba(113, 222, 71, 0.9);
+#C8 .window .intro > div > div {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #C8 .window .horario {
+#C8 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C8 .window .horario,
-.wiconContainer #C8 .window .info {
+#C8 .window .horario,
+#C8 .window .info {
   background-color: white;
 }
-.wiconContainer #C8 .window .inversion,
-.wiconContainer #C8 .window .certificado {
-  background-color: rgba(113, 222, 71, 0.6);
+#C8 .window .inversion,
+#C8 .window .certificado {
+  background-color: rgba(30, 205, 221, 0.6);
   color: white;
 }
-.wiconContainer #C8 .window .inversion .panel.sombra,
-.wiconContainer #C8 .window .certificado .panel.sombra {
-  background-color: #71de47;
+#C8 .window .inversion .panel.sombra,
+#C8 .window .certificado .panel.sombra {
+  background-color: #1ecddd;
 }
-.wiconContainer #C8 .window .inversion .panel.sombra h3,
-.wiconContainer #C8 .window .certificado .panel.sombra h3 {
+#C8 .window .inversion .panel.sombra h3,
+#C8 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C8 .window .inversion .panel h3,
-.wiconContainer #C8 .window .certificado .panel h3 {
-  color: #71de47;
+#C8 .window .inversion .panel h3,
+#C8 .window .certificado .panel h3 {
+  color: #1ecddd;
 }
-.wiconContainer #C8 .window .pago .botonBack {
-  background-color: #71de47;
+#C8 .window .pago .botonBack {
+  background-color: #1ecddd;
 }
-.wiconContainer #C8 .window .btn.btn-primary {
-  background-color: rgba(146, 230, 114, 0.9);
-  border: 1px solid #71de47;
+#C8 .window .btn.btn-primary {
+  background-color: rgba(72, 217, 230, 0.9);
+  border: 1px solid #1ecddd;
 }
-.wiconContainer #C8 .window .btn-group-vertical .btn {
+#C8 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(146, 230, 114, 0.9);
+  background-color: rgba(72, 217, 230, 0.9);
 }
-.wiconContainer #C8 .window .btn-group-vertical .btn:hover {
+#C8 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C8 .window .btn-group-vertical .btn + .btn {
+#C8 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C8 .window .btn-group-vertical .btn.active {
-  background-color: rgba(113, 222, 71, 0.9);
+#C8 .window .btn-group-vertical .btn.active {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #C9 {
+#C9 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2063,18 +2065,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dcbd6d;
+  background-color: #6ede51;
+  background-image: url(../img/PhotoshopXpress-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C9 {
+  #C9 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C9 .btn-toolbar {
+  #C9 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C9.active {
+#C9.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2085,106 +2088,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C9 {
+  #C9 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C9 {
+  #C9 {
     left: 33%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C9 {
+  #C9 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C9 .wicon > .telon {
+#C9 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C9 .wicon > footer {
-  background-color: #dcbd6d;
+#C9 .wicon > footer {
+  background-color: #6ede51;
 }
-.wiconContainer #C9 .window {
+#C9 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C9 .window header {
-  background-color: #dcbd6d;
+#C9 .window header {
+  background-color: #6ede51;
 }
-.wiconContainer #C9 .window header .botonHome {
-  background-color: #d2aa44;
+#C9 .window header .botonHome {
+  background-color: #4bd428;
 }
-.wiconContainer #C9 .window footer {
+#C9 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C9 .window footer a:link,
-.wiconContainer #C9 .window footer a:visited {
+#C9 .window footer a:link,
+#C9 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C9 .window footer .socialMedia a:link,
-.wiconContainer #C9 .window footer .socialMedia a:visited {
+#C9 .window footer .socialMedia a:link,
+#C9 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C9 .window footer a:hover {
+#C9 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C9 .window a:link,
-.wiconContainer #C9 .window a:visited {
+#C9 .window a:link,
+#C9 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C9 .window .intro > div > div {
-  background-color: rgba(210, 170, 68, 0.9);
+#C9 .window .intro > div > div {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #C9 .window .horario {
+#C9 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C9 .window .horario,
-.wiconContainer #C9 .window .info {
+#C9 .window .horario,
+#C9 .window .info {
   background-color: white;
 }
-.wiconContainer #C9 .window .inversion,
-.wiconContainer #C9 .window .certificado {
-  background-color: rgba(210, 170, 68, 0.6);
+#C9 .window .inversion,
+#C9 .window .certificado {
+  background-color: rgba(75, 212, 40, 0.6);
   color: white;
 }
-.wiconContainer #C9 .window .inversion .panel.sombra,
-.wiconContainer #C9 .window .certificado .panel.sombra {
-  background-color: #d2aa44;
+#C9 .window .inversion .panel.sombra,
+#C9 .window .certificado .panel.sombra {
+  background-color: #4bd428;
 }
-.wiconContainer #C9 .window .inversion .panel.sombra h3,
-.wiconContainer #C9 .window .certificado .panel.sombra h3 {
+#C9 .window .inversion .panel.sombra h3,
+#C9 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C9 .window .inversion .panel h3,
-.wiconContainer #C9 .window .certificado .panel h3 {
-  color: #d2aa44;
+#C9 .window .inversion .panel h3,
+#C9 .window .certificado .panel h3 {
+  color: #4bd428;
 }
-.wiconContainer #C9 .window .pago .botonBack {
-  background-color: #d2aa44;
+#C9 .window .pago .botonBack {
+  background-color: #4bd428;
 }
-.wiconContainer #C9 .window .btn.btn-primary {
-  background-color: rgba(220, 189, 109, 0.9);
-  border: 1px solid #d2aa44;
+#C9 .window .btn.btn-primary {
+  background-color: rgba(110, 222, 81, 0.9);
+  border: 1px solid #4bd428;
 }
-.wiconContainer #C9 .window .btn-group-vertical .btn {
+#C9 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 189, 109, 0.9);
+  background-color: rgba(110, 222, 81, 0.9);
 }
-.wiconContainer #C9 .window .btn-group-vertical .btn:hover {
+#C9 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C9 .window .btn-group-vertical .btn + .btn {
+#C9 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C9 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 170, 68, 0.9);
+#C9 .window .btn-group-vertical .btn.active {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #C10 {
+#C10 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2192,18 +2195,19 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dc7b71;
+  background-color: #dca552;
+  background-image: url(../img/AdministracionWebWordpress-header.png);
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C10 {
+  #C10 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C10 .btn-toolbar {
+  #C10 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C10.active {
+#C10.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2214,106 +2218,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C10 {
+  #C10 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C10 {
+  #C10 {
     left: 49.5%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C10 {
+  #C10 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C10 .wicon > .telon {
+#C10 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C10 .wicon > footer {
-  background-color: #dc7b71;
+#C10 .wicon > footer {
+  background-color: #dca552;
 }
-.wiconContainer #C10 .window {
+#C10 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C10 .window header {
-  background-color: #dc7b71;
+#C10 .window header {
+  background-color: #dca552;
 }
-.wiconContainer #C10 .window header .botonHome {
-  background-color: #d25548;
+#C10 .window header .botonHome {
+  background-color: #d18e2a;
 }
-.wiconContainer #C10 .window footer {
+#C10 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C10 .window footer a:link,
-.wiconContainer #C10 .window footer a:visited {
+#C10 .window footer a:link,
+#C10 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C10 .window footer .socialMedia a:link,
-.wiconContainer #C10 .window footer .socialMedia a:visited {
+#C10 .window footer .socialMedia a:link,
+#C10 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C10 .window footer a:hover {
+#C10 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C10 .window a:link,
-.wiconContainer #C10 .window a:visited {
+#C10 .window a:link,
+#C10 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C10 .window .intro > div > div {
-  background-color: rgba(210, 85, 72, 0.9);
+#C10 .window .intro > div > div {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #C10 .window .horario {
+#C10 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C10 .window .horario,
-.wiconContainer #C10 .window .info {
+#C10 .window .horario,
+#C10 .window .info {
   background-color: white;
 }
-.wiconContainer #C10 .window .inversion,
-.wiconContainer #C10 .window .certificado {
-  background-color: rgba(210, 85, 72, 0.6);
+#C10 .window .inversion,
+#C10 .window .certificado {
+  background-color: rgba(209, 142, 42, 0.6);
   color: white;
 }
-.wiconContainer #C10 .window .inversion .panel.sombra,
-.wiconContainer #C10 .window .certificado .panel.sombra {
-  background-color: #d25548;
+#C10 .window .inversion .panel.sombra,
+#C10 .window .certificado .panel.sombra {
+  background-color: #d18e2a;
 }
-.wiconContainer #C10 .window .inversion .panel.sombra h3,
-.wiconContainer #C10 .window .certificado .panel.sombra h3 {
+#C10 .window .inversion .panel.sombra h3,
+#C10 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C10 .window .inversion .panel h3,
-.wiconContainer #C10 .window .certificado .panel h3 {
-  color: #d25548;
+#C10 .window .inversion .panel h3,
+#C10 .window .certificado .panel h3 {
+  color: #d18e2a;
 }
-.wiconContainer #C10 .window .pago .botonBack {
-  background-color: #d25548;
+#C10 .window .pago .botonBack {
+  background-color: #d18e2a;
 }
-.wiconContainer #C10 .window .btn.btn-primary {
-  background-color: rgba(220, 123, 113, 0.9);
-  border: 1px solid #d25548;
+#C10 .window .btn.btn-primary {
+  background-color: rgba(220, 165, 82, 0.9);
+  border: 1px solid #d18e2a;
 }
-.wiconContainer #C10 .window .btn-group-vertical .btn {
+#C10 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 123, 113, 0.9);
+  background-color: rgba(220, 165, 82, 0.9);
 }
-.wiconContainer #C10 .window .btn-group-vertical .btn:hover {
+#C10 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C10 .window .btn-group-vertical .btn + .btn {
+#C10 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C10 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 85, 72, 0.9);
+#C10 .window .btn-group-vertical .btn.active {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #C11 {
+#C11 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2321,18 +2325,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #a172e6;
+  background-color: #e64f64;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C11 {
+  #C11 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C11 .btn-toolbar {
+  #C11 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C11.active {
+#C11.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2343,106 +2347,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C11 {
+  #C11 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C11 {
+  #C11 {
     left: 66%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C11 {
+  #C11 {
     left: 0%;
     top: 1100px;
   }
 }
-.wiconContainer #C11 .wicon > .telon {
+#C11 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C11 .wicon > footer {
-  background-color: #a172e6;
+#C11 .wicon > footer {
+  background-color: #e64f64;
 }
-.wiconContainer #C11 .window {
+#C11 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C11 .window header {
-  background-color: #a172e6;
+#C11 .window header {
+  background-color: #e64f64;
 }
-.wiconContainer #C11 .window header .botonHome {
-  background-color: #8447de;
+#C11 .window header .botonHome {
+  background-color: #e0223d;
 }
-.wiconContainer #C11 .window footer {
+#C11 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C11 .window footer a:link,
-.wiconContainer #C11 .window footer a:visited {
+#C11 .window footer a:link,
+#C11 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C11 .window footer .socialMedia a:link,
-.wiconContainer #C11 .window footer .socialMedia a:visited {
+#C11 .window footer .socialMedia a:link,
+#C11 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C11 .window footer a:hover {
+#C11 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C11 .window a:link,
-.wiconContainer #C11 .window a:visited {
+#C11 .window a:link,
+#C11 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C11 .window .intro > div > div {
-  background-color: rgba(132, 71, 222, 0.9);
+#C11 .window .intro > div > div {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C11 .window .horario {
+#C11 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C11 .window .horario,
-.wiconContainer #C11 .window .info {
+#C11 .window .horario,
+#C11 .window .info {
   background-color: white;
 }
-.wiconContainer #C11 .window .inversion,
-.wiconContainer #C11 .window .certificado {
-  background-color: rgba(132, 71, 222, 0.6);
+#C11 .window .inversion,
+#C11 .window .certificado {
+  background-color: rgba(224, 34, 61, 0.6);
   color: white;
 }
-.wiconContainer #C11 .window .inversion .panel.sombra,
-.wiconContainer #C11 .window .certificado .panel.sombra {
-  background-color: #8447de;
+#C11 .window .inversion .panel.sombra,
+#C11 .window .certificado .panel.sombra {
+  background-color: #e0223d;
 }
-.wiconContainer #C11 .window .inversion .panel.sombra h3,
-.wiconContainer #C11 .window .certificado .panel.sombra h3 {
+#C11 .window .inversion .panel.sombra h3,
+#C11 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C11 .window .inversion .panel h3,
-.wiconContainer #C11 .window .certificado .panel h3 {
-  color: #8447de;
+#C11 .window .inversion .panel h3,
+#C11 .window .certificado .panel h3 {
+  color: #e0223d;
 }
-.wiconContainer #C11 .window .pago .botonBack {
-  background-color: #8447de;
+#C11 .window .pago .botonBack {
+  background-color: #e0223d;
 }
-.wiconContainer #C11 .window .btn.btn-primary {
-  background-color: rgba(161, 114, 230, 0.9);
-  border: 1px solid #8447de;
+#C11 .window .btn.btn-primary {
+  background-color: rgba(230, 79, 100, 0.9);
+  border: 1px solid #e0223d;
 }
-.wiconContainer #C11 .window .btn-group-vertical .btn {
+#C11 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(161, 114, 230, 0.9);
+  background-color: rgba(230, 79, 100, 0.9);
 }
-.wiconContainer #C11 .window .btn-group-vertical .btn:hover {
+#C11 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C11 .window .btn-group-vertical .btn + .btn {
+#C11 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C11 .window .btn-group-vertical .btn.active {
-  background-color: rgba(132, 71, 222, 0.9);
+#C11 .window .btn-group-vertical .btn.active {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C12 {
+#C12 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2450,18 +2454,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #71c3cf;
+  background-color: #643ecf;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C12 {
+  #C12 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C12 .btn-toolbar {
+  #C12 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C12.active {
+#C12.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2472,106 +2476,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C12 {
+  #C12 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C12 {
+  #C12 {
     left: 82.5%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C12 {
+  #C12 {
     left: 0%;
     top: 850px;
   }
 }
-.wiconContainer #C12 .wicon > .telon {
+#C12 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C12 .wicon > footer {
-  background-color: #71c3cf;
+#C12 .wicon > footer {
+  background-color: #643ecf;
 }
-.wiconContainer #C12 .window {
+#C12 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C12 .window header {
-  background-color: #71c3cf;
+#C12 .window header {
+  background-color: #643ecf;
 }
-.wiconContainer #C12 .window header .botonHome {
-  background-color: #4bb3c2;
+#C12 .window header .botonHome {
+  background-color: #4e2baf;
 }
-.wiconContainer #C12 .window footer {
+#C12 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C12 .window footer a:link,
-.wiconContainer #C12 .window footer a:visited {
+#C12 .window footer a:link,
+#C12 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C12 .window footer .socialMedia a:link,
-.wiconContainer #C12 .window footer .socialMedia a:visited {
+#C12 .window footer .socialMedia a:link,
+#C12 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C12 .window footer a:hover {
+#C12 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C12 .window a:link,
-.wiconContainer #C12 .window a:visited {
+#C12 .window a:link,
+#C12 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C12 .window .intro > div > div {
-  background-color: rgba(75, 179, 194, 0.9);
+#C12 .window .intro > div > div {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C12 .window .horario {
+#C12 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C12 .window .horario,
-.wiconContainer #C12 .window .info {
+#C12 .window .horario,
+#C12 .window .info {
   background-color: white;
 }
-.wiconContainer #C12 .window .inversion,
-.wiconContainer #C12 .window .certificado {
-  background-color: rgba(75, 179, 194, 0.6);
+#C12 .window .inversion,
+#C12 .window .certificado {
+  background-color: rgba(78, 43, 175, 0.6);
   color: white;
 }
-.wiconContainer #C12 .window .inversion .panel.sombra,
-.wiconContainer #C12 .window .certificado .panel.sombra {
-  background-color: #4bb3c2;
+#C12 .window .inversion .panel.sombra,
+#C12 .window .certificado .panel.sombra {
+  background-color: #4e2baf;
 }
-.wiconContainer #C12 .window .inversion .panel.sombra h3,
-.wiconContainer #C12 .window .certificado .panel.sombra h3 {
+#C12 .window .inversion .panel.sombra h3,
+#C12 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C12 .window .inversion .panel h3,
-.wiconContainer #C12 .window .certificado .panel h3 {
-  color: #4bb3c2;
+#C12 .window .inversion .panel h3,
+#C12 .window .certificado .panel h3 {
+  color: #4e2baf;
 }
-.wiconContainer #C12 .window .pago .botonBack {
-  background-color: #4bb3c2;
+#C12 .window .pago .botonBack {
+  background-color: #4e2baf;
 }
-.wiconContainer #C12 .window .btn.btn-primary {
-  background-color: rgba(113, 195, 207, 0.9);
-  border: 1px solid #4bb3c2;
+#C12 .window .btn.btn-primary {
+  background-color: rgba(100, 62, 207, 0.9);
+  border: 1px solid #4e2baf;
 }
-.wiconContainer #C12 .window .btn-group-vertical .btn {
+#C12 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(113, 195, 207, 0.9);
+  background-color: rgba(100, 62, 207, 0.9);
 }
-.wiconContainer #C12 .window .btn-group-vertical .btn:hover {
+#C12 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C12 .window .btn-group-vertical .btn + .btn {
+#C12 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C12 .window .btn-group-vertical .btn.active {
-  background-color: rgba(75, 179, 194, 0.9);
+#C12 .window .btn-group-vertical .btn.active {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C13 {
+#C13 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2579,18 +2583,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #92e672;
+  background-color: #48d9e6;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C13 {
+  #C13 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C13 .btn-toolbar {
+  #C13 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C13.active {
+#C13.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2601,106 +2605,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C13 {
+  #C13 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C13 {
+  #C13 {
     left: 0%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C13 {
+  #C13 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C13 .wicon > .telon {
+#C13 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C13 .wicon > footer {
-  background-color: #92e672;
+#C13 .wicon > footer {
+  background-color: #48d9e6;
 }
-.wiconContainer #C13 .window {
+#C13 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C13 .window header {
-  background-color: #92e672;
+#C13 .window header {
+  background-color: #48d9e6;
 }
-.wiconContainer #C13 .window header .botonHome {
-  background-color: #71de47;
+#C13 .window header .botonHome {
+  background-color: #1ecddd;
 }
-.wiconContainer #C13 .window footer {
+#C13 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C13 .window footer a:link,
-.wiconContainer #C13 .window footer a:visited {
+#C13 .window footer a:link,
+#C13 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C13 .window footer .socialMedia a:link,
-.wiconContainer #C13 .window footer .socialMedia a:visited {
+#C13 .window footer .socialMedia a:link,
+#C13 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C13 .window footer a:hover {
+#C13 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C13 .window a:link,
-.wiconContainer #C13 .window a:visited {
+#C13 .window a:link,
+#C13 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C13 .window .intro > div > div {
-  background-color: rgba(113, 222, 71, 0.9);
+#C13 .window .intro > div > div {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #C13 .window .horario {
+#C13 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C13 .window .horario,
-.wiconContainer #C13 .window .info {
+#C13 .window .horario,
+#C13 .window .info {
   background-color: white;
 }
-.wiconContainer #C13 .window .inversion,
-.wiconContainer #C13 .window .certificado {
-  background-color: rgba(113, 222, 71, 0.6);
+#C13 .window .inversion,
+#C13 .window .certificado {
+  background-color: rgba(30, 205, 221, 0.6);
   color: white;
 }
-.wiconContainer #C13 .window .inversion .panel.sombra,
-.wiconContainer #C13 .window .certificado .panel.sombra {
-  background-color: #71de47;
+#C13 .window .inversion .panel.sombra,
+#C13 .window .certificado .panel.sombra {
+  background-color: #1ecddd;
 }
-.wiconContainer #C13 .window .inversion .panel.sombra h3,
-.wiconContainer #C13 .window .certificado .panel.sombra h3 {
+#C13 .window .inversion .panel.sombra h3,
+#C13 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C13 .window .inversion .panel h3,
-.wiconContainer #C13 .window .certificado .panel h3 {
-  color: #71de47;
+#C13 .window .inversion .panel h3,
+#C13 .window .certificado .panel h3 {
+  color: #1ecddd;
 }
-.wiconContainer #C13 .window .pago .botonBack {
-  background-color: #71de47;
+#C13 .window .pago .botonBack {
+  background-color: #1ecddd;
 }
-.wiconContainer #C13 .window .btn.btn-primary {
-  background-color: rgba(146, 230, 114, 0.9);
-  border: 1px solid #71de47;
+#C13 .window .btn.btn-primary {
+  background-color: rgba(72, 217, 230, 0.9);
+  border: 1px solid #1ecddd;
 }
-.wiconContainer #C13 .window .btn-group-vertical .btn {
+#C13 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(146, 230, 114, 0.9);
+  background-color: rgba(72, 217, 230, 0.9);
 }
-.wiconContainer #C13 .window .btn-group-vertical .btn:hover {
+#C13 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C13 .window .btn-group-vertical .btn + .btn {
+#C13 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C13 .window .btn-group-vertical .btn.active {
-  background-color: rgba(113, 222, 71, 0.9);
+#C13 .window .btn-group-vertical .btn.active {
+  background-color: rgba(30, 205, 221, 0.9);
 }
-.wiconContainer #C14 {
+#C14 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2708,18 +2712,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dcbd6d;
+  background-color: #6ede51;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C14 {
+  #C14 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C14 .btn-toolbar {
+  #C14 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C14.active {
+#C14.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2730,109 +2734,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C14 {
+  #C14 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C14 {
+  #C14 {
     left: 16.5%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C14 {
+  #C14 {
     left: 0%;
     top: 600px;
   }
 }
-.wiconContainer #C14 .wicon > .telon {
+#C14 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C14 .wicon > footer {
-  background-color: #dcbd6d;
+#C14 .wicon > footer {
+  background-color: #6ede51;
 }
-.wiconContainer #C14 .window {
+#C14 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C14 .window header {
-  background-color: #dcbd6d;
+#C14 .window header {
+  background-color: #6ede51;
 }
-.wiconContainer #C14 .window header .botonHome {
-  background-color: #d2aa44;
+#C14 .window header .botonHome {
+  background-color: #4bd428;
 }
-.wiconContainer #C14 .window footer {
+#C14 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C14 .window footer a:link,
-.wiconContainer #C14 .window footer a:visited {
+#C14 .window footer a:link,
+#C14 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C14 .window footer .socialMedia a:link,
-.wiconContainer #C14 .window footer .socialMedia a:visited {
+#C14 .window footer .socialMedia a:link,
+#C14 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C14 .window footer a:hover {
+#C14 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C14 .window a:link,
-.wiconContainer #C14 .window a:visited {
+#C14 .window a:link,
+#C14 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C14 .window .intro > div > div {
-  background-color: rgba(210, 170, 68, 0.9);
+#C14 .window .intro > div > div {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #C14 .window .horario {
+#C14 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C14 .window .horario,
-.wiconContainer #C14 .window .info {
+#C14 .window .horario,
+#C14 .window .info {
   background-color: white;
 }
-.wiconContainer #C14 .window .inversion,
-.wiconContainer #C14 .window .certificado {
-  background-color: rgba(210, 170, 68, 0.6);
+#C14 .window .inversion,
+#C14 .window .certificado {
+  background-color: rgba(75, 212, 40, 0.6);
   color: white;
 }
-.wiconContainer #C14 .window .inversion .panel.sombra,
-.wiconContainer #C14 .window .certificado .panel.sombra {
-  background-color: #d2aa44;
+#C14 .window .inversion .panel.sombra,
+#C14 .window .certificado .panel.sombra {
+  background-color: #4bd428;
 }
-.wiconContainer #C14 .window .inversion .panel.sombra h3,
-.wiconContainer #C14 .window .certificado .panel.sombra h3 {
+#C14 .window .inversion .panel.sombra h3,
+#C14 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C14 .window .inversion .panel h3,
-.wiconContainer #C14 .window .certificado .panel h3 {
-  color: #d2aa44;
+#C14 .window .inversion .panel h3,
+#C14 .window .certificado .panel h3 {
+  color: #4bd428;
 }
-.wiconContainer #C14 .window .pago .botonBack {
-  background-color: #d2aa44;
+#C14 .window .pago .botonBack {
+  background-color: #4bd428;
 }
-.wiconContainer #C14 .window .btn.btn-primary {
-  background-color: rgba(220, 189, 109, 0.9);
-  border: 1px solid #d2aa44;
+#C14 .window .btn.btn-primary {
+  background-color: rgba(110, 222, 81, 0.9);
+  border: 1px solid #4bd428;
 }
-.wiconContainer #C14 .window .btn-group-vertical .btn {
+#C14 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 189, 109, 0.9);
+  background-color: rgba(110, 222, 81, 0.9);
 }
-.wiconContainer #C14 .window .btn-group-vertical .btn:hover {
+#C14 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C14 .window .btn-group-vertical .btn + .btn {
+#C14 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C14 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 170, 68, 0.9);
+#C14 .window .btn-group-vertical .btn.active {
+  background-color: rgba(75, 212, 40, 0.9);
 }
-.wiconContainer #C14 .windowContent > .intro {
-  background-image: url(../img/Unity-header.png);
-}
-.wiconContainer #C15 {
+#C15 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2840,18 +2841,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #dc7b71;
+  background-color: #dca552;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C15 {
+  #C15 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C15 .btn-toolbar {
+  #C15 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C15.active {
+#C15.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2862,106 +2863,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C15 {
+  #C15 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C15 {
+  #C15 {
     left: 33%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C15 {
+  #C15 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C15 .wicon > .telon {
+#C15 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C15 .wicon > footer {
-  background-color: #dc7b71;
+#C15 .wicon > footer {
+  background-color: #dca552;
 }
-.wiconContainer #C15 .window {
+#C15 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C15 .window header {
-  background-color: #dc7b71;
+#C15 .window header {
+  background-color: #dca552;
 }
-.wiconContainer #C15 .window header .botonHome {
-  background-color: #d25548;
+#C15 .window header .botonHome {
+  background-color: #d18e2a;
 }
-.wiconContainer #C15 .window footer {
+#C15 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C15 .window footer a:link,
-.wiconContainer #C15 .window footer a:visited {
+#C15 .window footer a:link,
+#C15 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C15 .window footer .socialMedia a:link,
-.wiconContainer #C15 .window footer .socialMedia a:visited {
+#C15 .window footer .socialMedia a:link,
+#C15 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C15 .window footer a:hover {
+#C15 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C15 .window a:link,
-.wiconContainer #C15 .window a:visited {
+#C15 .window a:link,
+#C15 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C15 .window .intro > div > div {
-  background-color: rgba(210, 85, 72, 0.9);
+#C15 .window .intro > div > div {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #C15 .window .horario {
+#C15 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C15 .window .horario,
-.wiconContainer #C15 .window .info {
+#C15 .window .horario,
+#C15 .window .info {
   background-color: white;
 }
-.wiconContainer #C15 .window .inversion,
-.wiconContainer #C15 .window .certificado {
-  background-color: rgba(210, 85, 72, 0.6);
+#C15 .window .inversion,
+#C15 .window .certificado {
+  background-color: rgba(209, 142, 42, 0.6);
   color: white;
 }
-.wiconContainer #C15 .window .inversion .panel.sombra,
-.wiconContainer #C15 .window .certificado .panel.sombra {
-  background-color: #d25548;
+#C15 .window .inversion .panel.sombra,
+#C15 .window .certificado .panel.sombra {
+  background-color: #d18e2a;
 }
-.wiconContainer #C15 .window .inversion .panel.sombra h3,
-.wiconContainer #C15 .window .certificado .panel.sombra h3 {
+#C15 .window .inversion .panel.sombra h3,
+#C15 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C15 .window .inversion .panel h3,
-.wiconContainer #C15 .window .certificado .panel h3 {
-  color: #d25548;
+#C15 .window .inversion .panel h3,
+#C15 .window .certificado .panel h3 {
+  color: #d18e2a;
 }
-.wiconContainer #C15 .window .pago .botonBack {
-  background-color: #d25548;
+#C15 .window .pago .botonBack {
+  background-color: #d18e2a;
 }
-.wiconContainer #C15 .window .btn.btn-primary {
-  background-color: rgba(220, 123, 113, 0.9);
-  border: 1px solid #d25548;
+#C15 .window .btn.btn-primary {
+  background-color: rgba(220, 165, 82, 0.9);
+  border: 1px solid #d18e2a;
 }
-.wiconContainer #C15 .window .btn-group-vertical .btn {
+#C15 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(220, 123, 113, 0.9);
+  background-color: rgba(220, 165, 82, 0.9);
 }
-.wiconContainer #C15 .window .btn-group-vertical .btn:hover {
+#C15 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C15 .window .btn-group-vertical .btn + .btn {
+#C15 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C15 .window .btn-group-vertical .btn.active {
-  background-color: rgba(210, 85, 72, 0.9);
+#C15 .window .btn-group-vertical .btn.active {
+  background-color: rgba(209, 142, 42, 0.9);
 }
-.wiconContainer #C16 {
+#C16 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -2969,18 +2970,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #a172e6;
+  background-color: #e64f64;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C16 {
+  #C16 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C16 .btn-toolbar {
+  #C16 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C16.active {
+#C16.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -2991,106 +2992,106 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C16 {
+  #C16 {
     width: 16.5%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C16 {
+  #C16 {
     left: 49.5%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C16 {
+  #C16 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C16 .wicon > .telon {
+#C16 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C16 .wicon > footer {
-  background-color: #a172e6;
+#C16 .wicon > footer {
+  background-color: #e64f64;
 }
-.wiconContainer #C16 .window {
+#C16 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C16 .window header {
-  background-color: #a172e6;
+#C16 .window header {
+  background-color: #e64f64;
 }
-.wiconContainer #C16 .window header .botonHome {
-  background-color: #8447de;
+#C16 .window header .botonHome {
+  background-color: #e0223d;
 }
-.wiconContainer #C16 .window footer {
+#C16 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C16 .window footer a:link,
-.wiconContainer #C16 .window footer a:visited {
+#C16 .window footer a:link,
+#C16 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C16 .window footer .socialMedia a:link,
-.wiconContainer #C16 .window footer .socialMedia a:visited {
+#C16 .window footer .socialMedia a:link,
+#C16 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C16 .window footer a:hover {
+#C16 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C16 .window a:link,
-.wiconContainer #C16 .window a:visited {
+#C16 .window a:link,
+#C16 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C16 .window .intro > div > div {
-  background-color: rgba(132, 71, 222, 0.9);
+#C16 .window .intro > div > div {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C16 .window .horario {
+#C16 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C16 .window .horario,
-.wiconContainer #C16 .window .info {
+#C16 .window .horario,
+#C16 .window .info {
   background-color: white;
 }
-.wiconContainer #C16 .window .inversion,
-.wiconContainer #C16 .window .certificado {
-  background-color: rgba(132, 71, 222, 0.6);
+#C16 .window .inversion,
+#C16 .window .certificado {
+  background-color: rgba(224, 34, 61, 0.6);
   color: white;
 }
-.wiconContainer #C16 .window .inversion .panel.sombra,
-.wiconContainer #C16 .window .certificado .panel.sombra {
-  background-color: #8447de;
+#C16 .window .inversion .panel.sombra,
+#C16 .window .certificado .panel.sombra {
+  background-color: #e0223d;
 }
-.wiconContainer #C16 .window .inversion .panel.sombra h3,
-.wiconContainer #C16 .window .certificado .panel.sombra h3 {
+#C16 .window .inversion .panel.sombra h3,
+#C16 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C16 .window .inversion .panel h3,
-.wiconContainer #C16 .window .certificado .panel h3 {
-  color: #8447de;
+#C16 .window .inversion .panel h3,
+#C16 .window .certificado .panel h3 {
+  color: #e0223d;
 }
-.wiconContainer #C16 .window .pago .botonBack {
-  background-color: #8447de;
+#C16 .window .pago .botonBack {
+  background-color: #e0223d;
 }
-.wiconContainer #C16 .window .btn.btn-primary {
-  background-color: rgba(161, 114, 230, 0.9);
-  border: 1px solid #8447de;
+#C16 .window .btn.btn-primary {
+  background-color: rgba(230, 79, 100, 0.9);
+  border: 1px solid #e0223d;
 }
-.wiconContainer #C16 .window .btn-group-vertical .btn {
+#C16 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(161, 114, 230, 0.9);
+  background-color: rgba(230, 79, 100, 0.9);
 }
-.wiconContainer #C16 .window .btn-group-vertical .btn:hover {
+#C16 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C16 .window .btn-group-vertical .btn + .btn {
+#C16 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C16 .window .btn-group-vertical .btn.active {
-  background-color: rgba(132, 71, 222, 0.9);
+#C16 .window .btn-group-vertical .btn.active {
+  background-color: rgba(224, 34, 61, 0.9);
 }
-.wiconContainer #C17 {
+#C17 {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -3098,18 +3099,18 @@ body {
   box-sizing: border-box;
   transition: all 0.5s;
   position: absolute;
-  background-color: #71c3cf;
+  background-color: #643ecf;
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C17 {
+  #C17 {
     width: 50%;
     height: 250px;
   }
-  .wiconContainer #C17 .btn-toolbar {
+  #C17 .btn-toolbar {
     display: none;
   }
 }
-.wiconContainer #C17.active {
+#C17.active {
   cursor: auto;
   border-radius: 0;
   border: 0;
@@ -3120,104 +3121,104 @@ body {
   z-index: 1000;
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C17 {
+  #C17 {
     width: 33%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
-  .wiconContainer #C17 {
+  #C17 {
     left: 66%;
     top: calc( 2 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
-  .wiconContainer #C17 {
+  #C17 {
     left: 50%;
     top: 600px;
   }
 }
-.wiconContainer #C17 .wicon > .telon {
+#C17 .wicon > .telon {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C17 .wicon > footer {
-  background-color: #71c3cf;
+#C17 .wicon > footer {
+  background-color: #643ecf;
 }
-.wiconContainer #C17 .window {
+#C17 .window {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.wiconContainer #C17 .window header {
-  background-color: #71c3cf;
+#C17 .window header {
+  background-color: #643ecf;
 }
-.wiconContainer #C17 .window header .botonHome {
-  background-color: #4bb3c2;
+#C17 .window header .botonHome {
+  background-color: #4e2baf;
 }
-.wiconContainer #C17 .window footer {
+#C17 .window footer {
   background-color: #e5e5e5;
 }
-.wiconContainer #C17 .window footer a:link,
-.wiconContainer #C17 .window footer a:visited {
+#C17 .window footer a:link,
+#C17 .window footer a:visited {
   color: black;
   text-decoration: underline;
 }
-.wiconContainer #C17 .window footer .socialMedia a:link,
-.wiconContainer #C17 .window footer .socialMedia a:visited {
+#C17 .window footer .socialMedia a:link,
+#C17 .window footer .socialMedia a:visited {
   text-decoration: none;
 }
-.wiconContainer #C17 .window footer a:hover {
+#C17 .window footer a:hover {
   color: #777;
 }
-.wiconContainer #C17 .window a:link,
-.wiconContainer #C17 .window a:visited {
+#C17 .window a:link,
+#C17 .window a:visited {
   color: white;
   text-decoration: underline;
 }
-.wiconContainer #C17 .window .intro > div > div {
-  background-color: rgba(75, 179, 194, 0.9);
+#C17 .window .intro > div > div {
+  background-color: rgba(78, 43, 175, 0.9);
 }
-.wiconContainer #C17 .window .horario {
+#C17 .window .horario {
   border-radius: 10px 10px 0 0;
 }
-.wiconContainer #C17 .window .horario,
-.wiconContainer #C17 .window .info {
+#C17 .window .horario,
+#C17 .window .info {
   background-color: white;
 }
-.wiconContainer #C17 .window .inversion,
-.wiconContainer #C17 .window .certificado {
-  background-color: rgba(75, 179, 194, 0.6);
+#C17 .window .inversion,
+#C17 .window .certificado {
+  background-color: rgba(78, 43, 175, 0.6);
   color: white;
 }
-.wiconContainer #C17 .window .inversion .panel.sombra,
-.wiconContainer #C17 .window .certificado .panel.sombra {
-  background-color: #4bb3c2;
+#C17 .window .inversion .panel.sombra,
+#C17 .window .certificado .panel.sombra {
+  background-color: #4e2baf;
 }
-.wiconContainer #C17 .window .inversion .panel.sombra h3,
-.wiconContainer #C17 .window .certificado .panel.sombra h3 {
+#C17 .window .inversion .panel.sombra h3,
+#C17 .window .certificado .panel.sombra h3 {
   color: white;
 }
-.wiconContainer #C17 .window .inversion .panel h3,
-.wiconContainer #C17 .window .certificado .panel h3 {
-  color: #4bb3c2;
+#C17 .window .inversion .panel h3,
+#C17 .window .certificado .panel h3 {
+  color: #4e2baf;
 }
-.wiconContainer #C17 .window .pago .botonBack {
-  background-color: #4bb3c2;
+#C17 .window .pago .botonBack {
+  background-color: #4e2baf;
 }
-.wiconContainer #C17 .window .btn.btn-primary {
-  background-color: rgba(113, 195, 207, 0.9);
-  border: 1px solid #4bb3c2;
+#C17 .window .btn.btn-primary {
+  background-color: rgba(100, 62, 207, 0.9);
+  border: 1px solid #4e2baf;
 }
-.wiconContainer #C17 .window .btn-group-vertical .btn {
+#C17 .window .btn-group-vertical .btn {
   margin: 0;
-  background-color: rgba(113, 195, 207, 0.9);
+  background-color: rgba(100, 62, 207, 0.9);
 }
-.wiconContainer #C17 .window .btn-group-vertical .btn:hover {
+#C17 .window .btn-group-vertical .btn:hover {
   color: white;
 }
-.wiconContainer #C17 .window .btn-group-vertical .btn + .btn {
+#C17 .window .btn-group-vertical .btn + .btn {
   margin-top: 0px;
 }
-.wiconContainer #C17 .window .btn-group-vertical .btn.active {
-  background-color: rgba(75, 179, 194, 0.9);
+#C17 .window .btn-group-vertical .btn.active {
+  background-color: rgba(78, 43, 175, 0.9);
 }
 .window {
   display: none;
