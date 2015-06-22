@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carta de invitación a ___</title>
+    <link rel="stylesheet" href="libs/font-awesome.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        #mainContent {
+            padding: 1.5cm 2cm;
+            box-sizing: border-box;
+        }
+        .noPrint {
+            padding: .5cm 2cm;
+            box-sizing: border-box;
+        }
+        
+        @media screen {
+            #mainContent, .noPrint{
+                max-width: 750px;
+                margin: 0 auto;
+                border: 1px #333 solid;
+            }
+            .noPrint {
+                border: 0px;
+            }
+            
+            *[contenteditable] {
+                border: 1px orange solid;
+                display: inline-block;
+            }
+            .boton {
+                padding: 10px;
+                background-color: cornflowerblue;
+                color: white;
+                cursor: pointer;
+                width: 150px;
+                font-family: sans-serif;
+                text-align: center;
+                position: fixed;
+                top: .75cm;
+                right: 5px;
+            }
+            img {
+                position: fixed;
+                top: 5px;
+                left: 5px;
+                margin: 0;
+                width: 150px;
+            }
+        }
+        @media print {
+            body {
+                font-size: 14px;   
+            }
+            .boton, .noPrint {
+                display: none;   
+            }
+            p[contenteditable] {
+                border: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="noPrint">Ponemos a tu disposición la presente carta de solicitud de curso para que la uses dentro de tu empresa. Los campos en naranja son editables. <br>¡Saludos y mucha suerte! </p>
+    <div id="mainContent">
+        <br>
+        <p contenteditable="true">Estimado jefe</p>
+        <br>
+        <p>La capacitación es un elemento esencial para mantener al día la empresa. Nos permite a los miembros superarnos profesionalmente, mientras crece la organización con integrantes más calificados y preparados. Es por esta razón que me permito expresarle mi interés en participar dentro de los cursos de ChromaS, el centro educativo con los planes de estudio que más me han convencido. </p>
+        <p>ChromaS es un centro enfocado en los resultados y en la formación de competencias creativas dentro del mundo del diseño, la programación, la administración de proyectos y el marketing digital. En él se proponen continuamente cursos, talleres, diplomados y pláticas para difundir y evaluar el uso de nuevas tecnologías en el ámbito laboral.</p>
+        <p>Como parte de mi crecimiento profesional estoy muy interesado en tomar <strong>Nombre del curso</strong> donde aprenderé a:</p>
+        <ul>
+            <li>Aprendizaje 01</li>
+            <li>Aprendizaje 02</li>
+            <li>Aprendizaje 03</li>
+            <li>Aprendizaje 04</li>
+            <li>Aprendizaje 05</li>
+            <li>Aprendizaje 06</li>
+        </ul>
+        <p>Este curso es presencial y cuenta con apoyo online. Los instructores que tendré están altamente calificados en la materia y han trabajado en proyectos de gran escala. Por esta razón, me comprometo a poner todo mi esfuerzo y dedicación para aprovechar esta oportunidad lo más posible. De esta forma obtendré todas las habilidades y competencias que el curso enseña actualizándome y mejorando así mi labor profesional dentro de la empresa.
+        <p>Adjunto la información referente al curso que proporciona ChromaS para complementar la presente solicitud y para lo que considere apropiado la empresa.
+        <p>De antemano, muchas gracias.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="text-align: center;">______________________________________<br>
+        <span contenteditable="true">Nombre y Apellido</span>
+        </p>
+    </div>
+    <div class="boton" onclick="imprimir()"><i class="fa fa-print"></i> Imprimir</div>
+    <br>
+    <br>
+    <br>
+    <script>
+        function imprimir() {
+            window.print();   
+        }
+    </script>
+</body>
+</html>
