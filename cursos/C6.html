@@ -2,7 +2,7 @@
     
     <header class="header">
         <div class="botonHome"><i class="fa fa-times"></i></div>
-        <h2><img src="iconografia/arduino.png" alt="Arduino">Arduino<span class="categoria"> {CURSO}</span></h2>
+        <h2><img src="iconografia/arduino.png" alt="Arduino"> <span id="titulo">Arduino</span><span class="categoria"> {CURSO}</span></h2>
         <div class="btn-toolbar">
             <!--div class="btn-group-vertical" role="group">
                 <button type="button" class="btn btn-lg active" data-toggle="tooltip" data-placement="right" title="Home">
@@ -31,11 +31,11 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-4">
                 <div class="col-md-12">
-                    <h3></h3>
+                    <h3>Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo - Franklin</h3>
                 </div>
 
                 <button class="btn btn-md btn-primary colapse_btn" onclick="colapse(event)"><i class="fa fa-graduation-cap"></i> ¿Qué podré hacer?</button>
-                <div class="small collapse">
+                <div id="aprendizajesEsperados" class="small collapse">
                     <div class="col-md-6">
                         <ul>
                             <li>Arduino es uno de los dispositivos electrónicos más versátiles, populares y fáciles de usar para realizar instalaciones, kioscos y proyectos interactivos. Desde su creación fue pensado y planeado para ser usado por artistas, diseñadores y aficionados a la filosofía DIY (do it yourself).</li>
@@ -164,18 +164,18 @@
             <div class="col-md-4">
                 <h3><i class="fa fa-list-ul fa-lg"></i> Temario</h3>
                 <p>Compara nuestros temarios con los de otras escuelas e instituciones. Si encuentras un tema que deberíamos tener avísanos <a href="contacto.html">aquí</a>. Tu opinión es muy importante para nosotros.</p>
-                <button class="btn btn-md btn-primary center-block"><i class="fa fa-download"></i> Descargar</button>
+               <button class="btn btn-md btn-primary center-block" onclick="window.open('../temarios/TemarioCursoArduino.pdf')"><i class="fa fa-download"></i>Descargar</button>
             </div>
             <div class="col-md-4">
                 <h3><i class="fa fa-file-text-o fa-lg"></i> Invitación</h3>
                 <p>Hemos diseñado esta carta para promover que tu empresa te inscriba en este curso. A ti te combiene poder hacer más cosas y a tu empresa también.</p>
                 <button class="btn btn-md btn-primary center-block"><i class="fa fa-download"></i> Descargar</button>
             </div>
-            <div class="col-md-4">
+            <!--div class="col-md-4">
                 <h3><i class="fa fa-check-square-o fa-lg"></i> Plan de estudios</h3>
                 <p>Nuestros planes de estudio son nuestro orgullo. Con ellos garantizamos que tu aprendizaje tiene bases sólidas, y que tus conocimientos son comprobables. </p>
                 <button class="btn btn-md btn-primary center-block"><i class="fa fa-download"></i> Descargar</button>
-            </div>
+            </div-->
         </div>
     </div>
 
