@@ -1,7 +1,9 @@
 /*global $, document, Firebase, console, alert*/
 /*jslint plusplus:true, browser: true*/
 
-var selectedWicon = "D1";
+var selectedWicon = "D1",
+    $wicon,
+    selectedCourse;
 //var myDataRef = new Firebase('https://gbar6zs00xr.firebaseio-demo.com/');
 
 function cursos() {
@@ -43,7 +45,6 @@ function diplomados() {
         $(".wiconContainer > #diplomados > div").css("transform", "rotateX(0deg)").css("opacity", "1");
     }, 1500);
 }
-
 
 function cargarCalendario(selector) {
     "use strict";
@@ -120,6 +121,18 @@ function cargarCalendario(selector) {
     }
 }
 
+function mostrar() {
+    "use strict";
+    $wicon.addClass("active");
+    $wicon.children(".window").fadeOut(0);
+    //$wicon.children(".window").show(0);
+    $wicon.children(".wicon").delay(600).fadeOut(300);
+    $wicon.children(".window").delay(600).fadeIn(300);
+
+    selectedCourse = $wicon.get()[0].getAttribute("td-nombre");
+    history.pushState(null, null, "index.html#" + selectedCourse);
+}
+
 $(document).ready(function () {
     "use strict";
 
@@ -128,8 +141,6 @@ $(document).ready(function () {
     //$('#DWeb .calendar').html(calendario(3, "Abril 2015", "abril2015_DWeb"));
 
     $(".wicon").click(function () {
-        var selectedCourse, $wicon;
-
         selectedWicon = $(this).parent().get()[0].getAttribute("id");
         
         if (selectedWicon === "D6") {
@@ -140,23 +151,14 @@ $(document).ready(function () {
             return;
         }
         
-
         if ($("#" + selectedWicon + ">.window").html().indexOf("<") === -1) {
             $("#" + selectedWicon + ">.window").load("cursos/" + selectedWicon + ".html", function (response, status, xhr) {
                 if (status === "error") {
                     alert("Esta sección todavía no está disponible.\n\nLanzamiento oficial de la página:\n 11° de Mayo 2015\n ¡Está pendiente de las actualizaciones!");
                 } else {
                     cargarCalendario("#" + selectedWicon + " .calendar");
-                    var $wicon = $("#" + selectedWicon);
-                    $wicon.addClass("active");
-                    $wicon.children(".window").fadeOut(0);
-                    $wicon.children(".window").show(0);
-                    
-                    selectedCourse = $wicon.get()[0].getAttribute("td-nombre");
-                    history.pushState(null, null, "index.html#" + selectedCourse);
-                    
-                    $wicon.children(".wicon").fadeOut(1000);
-                    $wicon.children(".window").fadeIn(1000);
+                    $wicon = $("#" + selectedWicon);
+                    mostrar();
                 }
 
                 $("#" + selectedWicon + " .botonHome").click(function () {
@@ -173,15 +175,7 @@ $(document).ready(function () {
             });
         } else {
             $wicon = $("#" + selectedWicon);
-            $wicon.addClass("active");
-            $wicon.children(".window").fadeOut(0);
-            $wicon.children(".window").show(0);
-
-            selectedCourse = $wicon.get()[0].getAttribute("td-nombre");
-            history.pushState(null, null, "index.html#" + selectedCourse);
-
-            $wicon.children(".wicon").fadeOut(1000);
-            $wicon.children(".window").fadeIn(1000);
+            mostrar();
         }
 
     });
