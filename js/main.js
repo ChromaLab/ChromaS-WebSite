@@ -149,6 +149,9 @@ $(document).ready(function () {
         } else if (selectedWicon === "C17") {
             diplomados();
             return;
+        } else if (selectedWicon === "D4") {
+            window.location = "http://www.chromalab.org";
+            return;
         }
         
         if ($("#" + selectedWicon + ">.window").html().indexOf("<") === -1) {
