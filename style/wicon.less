@@ -276,7 +276,7 @@ html, body {
     #D2 {
         .grande;
         .gridL(2,1);
-        .gridS(0,0);
+        .gridS(1,0);
         .color(@paleta5, 50%);
         .windowContent > .intro {
             background-image: url(../img/mediosDigitales-header.png);
@@ -285,7 +285,7 @@ html, body {
     #D3 {
         .grande;
         .gridL(4,0);
-        .gridS(1,0);
+        .gridS(0,1);
         .color(@paleta2, 50%);
         .windowContent > .intro {
             background-image: url(../img/ArteDigital-header.png);
@@ -295,7 +295,7 @@ html, body {
     #D4 {
         .mediano;
         .gridL(0,2);
-        .gridS(0,1);
+        .gridS(0,2);
         .color(@paleta3, 50%);
 
     }    
@@ -303,7 +303,7 @@ html, body {
     #D5 {
         .mediano;
         .gridL(2,0);
-        .gridS(1,3);
+        .gridS(1,1);
         .color(@paleta4, 50%);
         .windowContent > .intro {
             background-image: url(../img/AdProyectos-header.png);
@@ -313,7 +313,7 @@ html, body {
     #D6 {
         .mediano;
         .gridL(4,2);
-        .gridS(1,1);
+        .gridS(1,2);
         .color(@paleta1, 50%);
         .windowContent > .intro {
             background-image: url(../img/ArtGeneratico-header.png);
@@ -321,6 +321,7 @@ html, body {
     }
     
     #C1 {
+		display: none;
         .chico;
         .gridL(0,0);
         .gridS(0,0);
@@ -330,10 +331,11 @@ html, body {
         }
         
     }
+	
     #C2 {
-        .chico;
-        .gridL(1,0);
-        .gridS(0,1);
+        .mediano;
+        .gridL(0,0);
+        .gridS(0,0);
         .color(@paleta2, 50%);
         .windowContent > .intro {
             background-image: url(../img/AdProyectos-header.png);
@@ -351,7 +353,7 @@ html, body {
     #C4 {
         .chico;
         .gridL(3,0);
-        .gridS(1,1);
+        .gridS(0,1);
         .color(@paleta4, 50%);
         .windowContent > .intro {
             background-image: url(../img/Unity3D-header.png);
@@ -360,7 +362,7 @@ html, body {
     #C5 {
         .chico;
         .gridL(4,0);
-        .gridS(2,0);
+        .gridS(1,1);
         .color(@paleta1, 50%);
         .windowContent > .intro {
             background-image: url(../img/AdministracionProyectos-header.png);
@@ -369,31 +371,36 @@ html, body {
     #C6 {
         .chico;
         .gridL(5,0);
-        .gridS(2,1);
+        .gridS(0,2);
         .color(@paleta5, 50%);
         .windowContent > .intro {
-        background-image: url(../img/Arduino-header.png);
+        	background-image: url(../img/Arduino-header.png);
         }
     }
     #C7 {
         .chico;
         .gridL(0,1);
-        .gridS(3,0);
+        .gridS(0,2);
         .color(@paleta2, 50%);
+		.windowContent > .intro {
+        	background-image: url(../img/Processing-header.png);
+        }
         
     }
-        
-    #C8 {
+   #C8 {
+	   display: none;
         .chico;
-        .gridL(1,1);
-        .gridS(3,1);
+        .gridL(2,1);
+        .gridS(1,3);
         .color(@paleta3, 50%);
-        
+		.windowContent > .intro {
+            background-image: url(../img/Rhino-header.png);
+        }
     }
     #C9 {
         .chico;
-        .gridL(2,1);
-        .gridS(4,0);
+        .gridL(0,1);
+        .gridS(1,2);
         .color(@paleta4, 50%);
         .windowContent > .intro {
             background-image: url(../img/PhotoshopXpress-header.png);
@@ -401,41 +408,44 @@ html, body {
     }
     #C10 {
         .chico;
-        .gridL(3,1);
-        .gridS(4,1);
+        .gridL(1,1);
+        .gridS(0,3);
         .color(@paleta1, 50%);
         .windowContent > .intro {
             background-image: url(../img/AdministracionWebWordpress-header.png);
         }
     }
-    
     #C11 {
         .chico;
-        .gridL(4,1);
-        .gridS(5,0);
+        .gridL(2,1);
+        .gridS(1,3);
         .color(@paleta5, 50%);
+		.windowContent > .intro {
+            background-image: url(../img/disenoEditorial-header.png);
+        }
     }
-        
     #C12 {
         .chico;
-        .gridL(5,1);
-        .gridS(5,1);
+        .gridL(3,1);
+        .gridS(0,4);
         .color(@paleta2, 50%);
-    
+		.windowContent > .intro {
+        	background-image: url(../img/RedesSociales-header.png);
+        }
     }
-    
     #C13 {
         .chico;
         .gridL(0,2);
-        .gridS(6,0);
+        .gridS(1,4);
         .color(@paleta3, 50%);
-        
+		.windowContent > .intro {
+            background-image: url(../img/RedaccionPublicitaria-header.png);
+        }
     }
-    
     #C14 {
         .chico;
         .gridL(1,2);
-        .gridS(6,1);
+        .gridS(0,5);
         .color(@paleta4, 50%);
         .windowContent > .intro {
         
@@ -444,28 +454,28 @@ html, body {
     #C15 {
         .chico;
         .gridL(2,2);
-        .gridS(7,0);
+        .gridS(1,5);
         .color(@paleta1, 50%);
         .windowContent > .intro {
-        background-image: url(../img/ProduccionRevistas-header.png);
+        	background-image: url(../img/ProduccionRevistas-header.png);
         }
     }
-        
     #C16 {
         .chico;
         .gridL(3,2);
-        .gridS(7,1);
+        .gridS(0,6);
         .color(@paleta5, 50%);
-       
+		 .windowContent > .intro {
+			 
+		 }
     }
     #C17 {
-        .mediano;
-        .gridL(4,2);
-        .gridS(8,0);
+        .grande;
+        .gridL(4,1);
+        .gridS(1,6);
         .color(@paleta2, 50%);
-        }
     }
-
+}
 
 .window {
     display: none;

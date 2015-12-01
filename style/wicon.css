@@ -28,7 +28,7 @@ body {
 @media screen and (max-width: 899px) {
   .caja {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .caja .btn-toolbar {
     display: none;
@@ -56,7 +56,7 @@ body {
 @media screen and (max-width: 899px) {
   .grande {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .grande .btn-toolbar {
     display: none;
@@ -90,7 +90,7 @@ body {
 @media screen and (max-width: 899px) {
   .mediano {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .mediano .btn-toolbar {
     display: none;
@@ -124,7 +124,7 @@ body {
 @media screen and (max-width: 899px) {
   .chico {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .chico .btn-toolbar {
     display: none;
@@ -160,7 +160,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer {
     position: relative;
-    height: 1550px;
+    height: 1800px;
   }
 }
 .wiconContainer > header {
@@ -251,7 +251,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D1 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #D1 .btn-toolbar {
     display: none;
@@ -383,7 +383,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D2 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #D2 .btn-toolbar {
     display: none;
@@ -413,7 +413,7 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #D2 {
-    left: 0%;
+    left: 50%;
     top: 100px;
   }
 }
@@ -515,7 +515,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D3 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #D3 .btn-toolbar {
     display: none;
@@ -545,8 +545,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #D3 {
-    left: 50%;
-    top: 100px;
+    left: 0%;
+    top: 400px;
   }
 }
 .wiconContainer #D3 .wicon > .telon {
@@ -647,7 +647,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D4 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #D4 .btn-toolbar {
     display: none;
@@ -678,7 +678,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D4 {
     left: 0%;
-    top: 350px;
+    top: 700px;
   }
 }
 .wiconContainer #D4 .wicon > .telon {
@@ -776,7 +776,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D5 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #D5 .btn-toolbar {
     display: none;
@@ -807,7 +807,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D5 {
     left: 50%;
-    top: 850px;
+    top: 400px;
   }
 }
 .wiconContainer #D5 .wicon > .telon {
@@ -908,7 +908,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D6 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #D6 .btn-toolbar {
     display: none;
@@ -939,7 +939,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #D6 {
     left: 50%;
-    top: 350px;
+    top: 700px;
   }
 }
 .wiconContainer #D6 .wicon > .telon {
@@ -1028,6 +1028,7 @@ body {
   background-image: url(../img/ArtGeneratico-header.png);
 }
 .wiconContainer #C1 {
+  display: none;
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1040,7 +1041,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C1 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C1 .btn-toolbar {
     display: none;
@@ -1172,7 +1173,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C2 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C2 .btn-toolbar {
     display: none;
@@ -1190,20 +1191,20 @@ body {
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C2 {
-    width: 16.5%;
+    width: 33%;
     height: calc((100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C2 {
-    left: 16.5%;
+    left: 0%;
     top: calc( 0 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C2 {
     left: 0%;
-    top: 350px;
+    top: 100px;
   }
 }
 .wiconContainer #C2 .wicon > .telon {
@@ -1304,7 +1305,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C3 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C3 .btn-toolbar {
     display: none;
@@ -1436,7 +1437,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C4 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C4 .btn-toolbar {
     display: none;
@@ -1466,8 +1467,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C4 {
-    left: 50%;
-    top: 350px;
+    left: 0%;
+    top: 400px;
   }
 }
 .wiconContainer #C4 .wicon > .telon {
@@ -1568,7 +1569,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C5 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C5 .btn-toolbar {
     display: none;
@@ -1598,8 +1599,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C5 {
-    left: 100%;
-    top: 100px;
+    left: 50%;
+    top: 400px;
   }
 }
 .wiconContainer #C5 .wicon > .telon {
@@ -1700,7 +1701,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C6 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C6 .btn-toolbar {
     display: none;
@@ -1730,8 +1731,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C6 {
-    left: 100%;
-    top: 350px;
+    left: 0%;
+    top: 700px;
   }
 }
 .wiconContainer #C6 .wicon > .telon {
@@ -1832,7 +1833,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C7 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C7 .btn-toolbar {
     display: none;
@@ -1862,8 +1863,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C7 {
-    left: 150%;
-    top: 100px;
+    left: 0%;
+    top: 700px;
   }
 }
 .wiconContainer #C7 .wicon > .telon {
@@ -1948,7 +1949,11 @@ body {
 .wiconContainer #C7 .window .btn-group-vertical .btn.active {
   background-color: rgba(78, 43, 175, 0.9);
 }
+.wiconContainer #C7 .windowContent > .intro {
+  background-image: url(../img/Processing-header.png);
+}
 .wiconContainer #C8 {
+  display: none;
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
@@ -1961,7 +1966,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C8 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C8 .btn-toolbar {
     display: none;
@@ -1985,14 +1990,14 @@ body {
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C8 {
-    left: 16.5%;
+    left: 33%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C8 {
-    left: 150%;
-    top: 350px;
+    left: 50%;
+    top: 1000px;
   }
 }
 .wiconContainer #C8 .wicon > .telon {
@@ -2077,6 +2082,9 @@ body {
 .wiconContainer #C8 .window .btn-group-vertical .btn.active {
   background-color: rgba(30, 205, 221, 0.9);
 }
+.wiconContainer #C8 .windowContent > .intro {
+  background-image: url(../img/Rhino-header.png);
+}
 .wiconContainer #C9 {
   text-align: center;
   overflow: hidden;
@@ -2090,7 +2098,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C9 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C9 .btn-toolbar {
     display: none;
@@ -2114,14 +2122,14 @@ body {
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C9 {
-    left: 33%;
+    left: 0%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C9 {
-    left: 200%;
-    top: 100px;
+    left: 50%;
+    top: 700px;
   }
 }
 .wiconContainer #C9 .wicon > .telon {
@@ -2222,7 +2230,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C10 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C10 .btn-toolbar {
     display: none;
@@ -2246,14 +2254,14 @@ body {
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C10 {
-    left: 49.5%;
+    left: 16.5%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C10 {
-    left: 200%;
-    top: 350px;
+    left: 0%;
+    top: 1000px;
   }
 }
 .wiconContainer #C10 .wicon > .telon {
@@ -2354,7 +2362,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C11 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C11 .btn-toolbar {
     display: none;
@@ -2378,14 +2386,14 @@ body {
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C11 {
-    left: 66%;
+    left: 33%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C11 {
-    left: 250%;
-    top: 100px;
+    left: 50%;
+    top: 1000px;
   }
 }
 .wiconContainer #C11 .wicon > .telon {
@@ -2470,6 +2478,9 @@ body {
 .wiconContainer #C11 .window .btn-group-vertical .btn.active {
   background-color: rgba(224, 34, 61, 0.9);
 }
+.wiconContainer #C11 .windowContent > .intro {
+  background-image: url(../img/disenoEditorial-header.png);
+}
 .wiconContainer #C12 {
   text-align: center;
   overflow: hidden;
@@ -2483,7 +2494,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C12 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C12 .btn-toolbar {
     display: none;
@@ -2507,14 +2518,14 @@ body {
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C12 {
-    left: 82.5%;
+    left: 49.5%;
     top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C12 {
-    left: 250%;
-    top: 350px;
+    left: 0%;
+    top: 1300px;
   }
 }
 .wiconContainer #C12 .wicon > .telon {
@@ -2599,6 +2610,9 @@ body {
 .wiconContainer #C12 .window .btn-group-vertical .btn.active {
   background-color: rgba(78, 43, 175, 0.9);
 }
+.wiconContainer #C12 .windowContent > .intro {
+  background-image: url(../img/RedesSociales-header.png);
+}
 .wiconContainer #C13 {
   text-align: center;
   overflow: hidden;
@@ -2612,7 +2626,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C13 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C13 .btn-toolbar {
     display: none;
@@ -2642,8 +2656,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C13 {
-    left: 300%;
-    top: 100px;
+    left: 50%;
+    top: 1300px;
   }
 }
 .wiconContainer #C13 .wicon > .telon {
@@ -2728,6 +2742,9 @@ body {
 .wiconContainer #C13 .window .btn-group-vertical .btn.active {
   background-color: rgba(30, 205, 221, 0.9);
 }
+.wiconContainer #C13 .windowContent > .intro {
+  background-image: url(../img/RedaccionPublicitaria-header.png);
+}
 .wiconContainer #C14 {
   text-align: center;
   overflow: hidden;
@@ -2741,7 +2758,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C14 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C14 .btn-toolbar {
     display: none;
@@ -2771,8 +2788,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C14 {
-    left: 300%;
-    top: 350px;
+    left: 0%;
+    top: 1600px;
   }
 }
 .wiconContainer #C14 .wicon > .telon {
@@ -2870,7 +2887,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C15 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C15 .btn-toolbar {
     display: none;
@@ -2900,8 +2917,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C15 {
-    left: 350%;
-    top: 100px;
+    left: 50%;
+    top: 1600px;
   }
 }
 .wiconContainer #C15 .wicon > .telon {
@@ -3002,7 +3019,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C16 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C16 .btn-toolbar {
     display: none;
@@ -3032,8 +3049,8 @@ body {
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C16 {
-    left: 350%;
-    top: 350px;
+    left: 0%;
+    top: 1900px;
   }
 }
 .wiconContainer #C16 .wicon > .telon {
@@ -3131,7 +3148,7 @@ body {
 @media screen and (max-width: 899px) {
   .wiconContainer #C17 {
     width: 50%;
-    height: 250px;
+    height: 300px;
   }
   .wiconContainer #C17 .btn-toolbar {
     display: none;
@@ -3150,19 +3167,19 @@ body {
 @media screen and (min-width: 900px) {
   .wiconContainer #C17 {
     width: 33%;
-    height: calc((100% - 100px) / 3);
+    height: calc(2 * (100% - 100px) / 3);
   }
 }
 @media screen and (min-width: 900px) {
   .wiconContainer #C17 {
     left: 66%;
-    top: calc( 2 * (100% - 100px) / 3 + 100px);
+    top: calc( 1 * (100% - 100px) / 3 + 100px);
   }
 }
 @media screen and (max-width: 899px) {
   .wiconContainer #C17 {
-    left: 400%;
-    top: 100px;
+    left: 50%;
+    top: 1900px;
   }
 }
 .wiconContainer #C17 .wicon > .telon {
